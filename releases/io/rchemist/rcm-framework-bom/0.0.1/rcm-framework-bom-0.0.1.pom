@@ -749,7 +749,7 @@
 
       <dependency>
         <groupId>io.rchemist</groupId>
-        <artifactId>common-spring6</artifactId>
+        <artifactId>common-framework</artifactId>
         <version>${rcm-platform.version}</version>
         <scope>compile</scope>
         <type>jar</type>
@@ -757,7 +757,7 @@
 
       <dependency>
         <groupId>io.rchemist</groupId>
-        <artifactId>workflow</artifactId>
+        <artifactId>module-workflow</artifactId>
         <version>${rcm-platform.version}</version>
         <scope>compile</scope>
         <type>jar</type>
@@ -990,13 +990,13 @@
     <repository>
       <id>release</id>
       <url>file:../release-micro/releases</url>
-      <!--<url>https://github.com/rchemist/release-micro/raw/main/releases</url>-->
+      <!--<url>https://github.com/rchemist/rcm-framework-release/raw/main/releases</url>-->
     </repository>
 
     <snapshotRepository>
       <id>snapshot</id>
       <url>file:../release-micro/snapshots</url>
-      <!--<url>https://github.com/rchemist/release-micro/raw/main/snapshots</url>-->
+      <!--<url>https://github.com/rchemist/rcm-framework-release/raw/main/snapshots</url>-->
     </snapshotRepository>
   </distributionManagement>
 
