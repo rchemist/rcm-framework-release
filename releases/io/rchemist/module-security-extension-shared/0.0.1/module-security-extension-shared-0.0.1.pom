@@ -54,7 +54,7 @@
 
     <dependency>
       <groupId>io.rchemist</groupId>
-      <artifactId>notification-shared</artifactId>
+      <artifactId>module-notification-shared</artifactId>
       <version>${project.version}</version>
       <scope>compile</scope>
       <type>jar</type>
