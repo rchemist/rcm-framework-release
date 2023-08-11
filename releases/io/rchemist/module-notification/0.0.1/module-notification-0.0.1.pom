@@ -65,13 +65,13 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-framework</artifactId>
-      <type>jar</type>
+      <!--<type>jar</type>-->
     </dependency>
 
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>module-notification-shared</artifactId>
-      <version>0.0.1</version>
+      <!--<version>0.0.1</version>-->
     </dependency>
 
     <dependency>

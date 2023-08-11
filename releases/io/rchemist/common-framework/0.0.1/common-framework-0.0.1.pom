@@ -38,25 +38,25 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-data-jpa</artifactId>
-      <version>${project.version}</version>
+      <!--<version>${project.version}</version>-->
     </dependency>
 
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-class-transformer</artifactId>
-      <version>${project.version}</version>
+      <!--<version>${project.version}</version>-->
     </dependency>
 
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-extension-manager</artifactId>
-      <version>${project.version}</version>
+      <!--<version>${project.version}</version>-->
     </dependency>
 
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-utils</artifactId>
-      <version>${project.version}</version>
+      <!--<version>${project.version}</version>-->
     </dependency>
 
     <dependency>

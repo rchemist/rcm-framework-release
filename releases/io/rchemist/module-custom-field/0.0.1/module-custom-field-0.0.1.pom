@@ -48,15 +48,15 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-framework</artifactId>
-      <scope>compile</scope>
-      <type>jar</type>
+      <!--<scope>compile</scope>
+      <type>jar</type>-->
     </dependency>
 
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>module-custom-field-shared</artifactId>
-      <version>${project.version}</version>
-      <type>jar</type>
+      <!--<version>${project.version}</version>
+      <type>jar</type>-->
     </dependency>
 
   </dependencies>

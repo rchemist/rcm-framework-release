@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.rchemist</groupId>
+  <artifactId>rcm-framework-bom</artifactId>
+  <versioning>
+    <release>0.0.1</release>
+    <versions>
+      <version>0.0.1</version>
+    </versions>
+    <lastUpdated>20230811060028</lastUpdated>
+  </versioning>
+</metadata>

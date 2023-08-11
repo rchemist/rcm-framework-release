@@ -48,9 +48,9 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-data-hibernate</artifactId>
-      <version>${project.version}</version>
+      <!--<version>${project.version}</version>
       <scope>compile</scope>
-      <type>jar</type>
+      <type>jar</type>-->
     </dependency>
 
     <dependency>

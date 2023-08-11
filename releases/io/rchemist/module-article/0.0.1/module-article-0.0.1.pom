@@ -48,22 +48,22 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-framework</artifactId>
-      <scope>compile</scope>
-      <type>jar</type>
+      <!--<scope>compile</scope>
+      <type>jar</type>-->
     </dependency>
 
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>module-asset</artifactId>
-      <version>${project.version}</version>
+      <!--<version>${project.version}</version>
       <scope>compile</scope>
-      <type>jar</type>
+      <type>jar</type>-->
     </dependency>
 
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>module-article-shared</artifactId>
-      <type>jar</type>
+      <!--<type>jar</type>-->
     </dependency>
 
   </dependencies>

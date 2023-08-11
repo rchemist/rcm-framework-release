@@ -44,7 +44,7 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-utils</artifactId>
-      <version>0.0.1</version>
+      <!--<version>0.0.1</version>-->
     </dependency>
 
     <dependency>

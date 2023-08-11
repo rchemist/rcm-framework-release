@@ -39,7 +39,7 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-data-hibernate</artifactId>
-      <type>jar</type>
+      <!--<type>jar</type>-->
     </dependency>
   </dependencies>
 
