@@ -21,6 +21,7 @@
     <artifactId>rcm-framework</artifactId>
     <groupId>io.rchemist</groupId>
     <version>0.0.1</version>
+    <relativePath>../../pom.xml</relativePath>
   </parent>
 
   <groupId>io.rchemist</groupId>
@@ -43,6 +44,20 @@
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>release</id>
+      <url>file:../../release/releases</url>
+      <!--<url>https://github.com/rchemist/release-micro/raw/main/releases</url>-->
+    </repository>
+
+    <snapshotRepository>
+      <id>snapshot</id>
+      <url>file:../../release/snapshots</url>
+      <!--<url>https://github.com/rchemist/release-micro/raw/main/snapshots</url>-->
+    </snapshotRepository>
+  </distributionManagement>
 
 
 

@@ -19,6 +19,7 @@
     <artifactId>rcm-framework</artifactId>
     <groupId>io.rchemist</groupId>
     <version>0.0.1</version>
+    <relativePath>../../pom.xml</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -112,14 +113,14 @@
   <distributionManagement>
     <repository>
       <id>release</id>
-      <url>file:../../release-micro/releases</url>
-      <!--<url>https://github.com/rchemist/rcm-framework-release/raw/main/releases</url>-->
+      <url>file:../../release/releases</url>
+      <!--<url>https://github.com/rchemist/release-micro/raw/main/releases</url>-->
     </repository>
 
     <snapshotRepository>
       <id>snapshot</id>
-      <url>file:../../release-micro/snapshots</url>
-      <!--<url>https://github.com/rchemist/rcm-framework-release/raw/main/snapshots</url>-->
+      <url>file:../../release/snapshots</url>
+      <!--<url>https://github.com/rchemist/release-micro/raw/main/snapshots</url>-->
     </snapshotRepository>
   </distributionManagement>
 

@@ -23,6 +23,81 @@
     <version>0.0.1</version>
   </parent>
 
+  <groupId>io.rchemist</groupId>
+  <packaging>pom</packaging>
+  <artifactId>rcm-framework</artifactId>
+  <version>0.0.1</version>
+  <name>RCM-Framework</name>
+  <description>Rchemist Framework :: for developing high-performance web services quickly and easily.</description>
+  <properties>
+    <java.version>17</java.version>
+    <project.version>0.0.1</project.version>
+    <rcm-platform.version>0.0.1</rcm-platform.version>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo1.maven.org/maven2/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>JabyIon</id>
+      <url>https://www.jabylon.org/maven/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>Clojars</id>
+      <url>https://clojars.org/repo/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>jcenter</id>
+      <url>https://jcenter.bintray.com/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>jitpack</id>
+      <url>https://jitpack.io/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>rchemist.invesdwin.mirror</id>
+      <url>https://github.com/rchemist/release-invesdwin-instrument/raw/main/releases</url>
+    </repository>
+    <repository>
+      <id>rchemist.releases</id>
+      <url>https://github.com/rchemist/rcm-framework-release/raw/main/releases</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>spring-snapshots</id>
+      <url>https://repo.spring.io/snapshot</url>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+    <repository>
+      <id>spring-milestones</id>
+      <url>https://repo.spring.io/milestone</url>
+    </repository>
+  </repositories>
+
   <modules>
     <!-- common modules -->
     <module>common/common-class-transformer</module>
@@ -53,222 +128,6 @@
     <module>modules/module-workflow</module>
   </modules>
 
-
-  <groupId>io.rchemist</groupId>
-  <packaging>pom</packaging>
-  <artifactId>rcm-framework</artifactId>
-  <version>0.0.1</version>
-  <name>RCM-Framework</name>
-  <description>Rchemist Framework :: for developing high-performance web services quickly and easily.</description>
-  <properties>
-    <java.version>17</java.version>
-    <project.version>0.0.1</project.version>
-    <spring-eureka.version>4.0.2</spring-eureka.version>
-  </properties>
-
-  <repositories>
-    <repository>
-      <id>central</id>
-      <url>https://repo1.maven.org/maven2/</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>maven-central</id>
-      <url>https://repo.maven.apache.org/maven2</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>rchemist.releases</id>
-      <url>https://github.com/rchemist/rcm-framework-release/raw/main/releases</url>
-      <snapshots>
-        <enabled>true</enabled>
-        <updatePolicy>always</updatePolicy>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>apache snapshots</id>
-      <url>https://repository.apache.org/content/repositories/snapshots</url>
-    </repository>
-  </repositories>
-
-  <dependencyManagement>
-    <dependencies>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>common-class-transformer</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-        <type>jar</type>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>common-data-atomikos</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-        <type>jar</type>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>common-data-hibernate</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-        <type>jar</type>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>common-data-jpa</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-        <type>jar</type>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>common-data-mongo</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-        <type>jar</type>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>common-documentation</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-        <type>jar</type>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>common-extension-manager</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>common-framework</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-activemq</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-admin</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-admin-shared</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-article</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-article-shared</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-asset</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-asset-shared</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-custom-field</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-custom-field-shared</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-jwt</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-notification</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-notification-shared</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-user</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-user-shared</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-workflow</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-      </dependency>
-
-    </dependencies>
-  </dependencyManagement>
-
   <pluginRepositories>
     <!-- The order of definitions matters. Explicitly defining central here to make sure it has the highest priority. -->
     <pluginRepository>
@@ -278,19 +137,11 @@
         <enabled>false</enabled>
       </snapshots>
     </pluginRepository>
-    <pluginRepository>
-      <id>vaadin-prereleases</id>
-      <url>
-        https://maven.vaadin.com/vaadin-prereleases/
-      </url>
-    </pluginRepository>
 
     <pluginRepository>
       <id>spring milestones</id>
       <url>https://repo.spring.io/milestone</url>
     </pluginRepository>
   </pluginRepositories>
-
-
 
 </project>
