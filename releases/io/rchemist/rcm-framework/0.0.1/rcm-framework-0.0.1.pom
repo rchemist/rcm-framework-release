@@ -21,7 +21,6 @@
     <groupId>io.rchemist</groupId>
     <artifactId>rcm-framework-bom</artifactId>
     <version>0.0.1</version>
-    <relativePath/> <!-- lookup parent from repository -->
   </parent>
 
   <modules>
