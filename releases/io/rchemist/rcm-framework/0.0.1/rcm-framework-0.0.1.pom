@@ -101,7 +101,7 @@
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>common-class-transformer</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
       </dependency>
@@ -109,7 +109,7 @@
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>common-data-atomikos</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
       </dependency>
@@ -117,7 +117,7 @@
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>common-data-hibernate</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
       </dependency>
@@ -125,7 +125,7 @@
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>common-data-jpa</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
       </dependency>
@@ -133,7 +133,7 @@
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>common-data-mongo</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
       </dependency>
@@ -141,7 +141,7 @@
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>common-documentation</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
       </dependency>
@@ -149,42 +149,42 @@
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>common-extension-manager</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>common-framework</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-activemq</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-admin</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-admin-shared</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-article</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
@@ -192,77 +192,77 @@
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-article-shared</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-asset</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-asset-shared</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-custom-field</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-custom-field-shared</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-jwt</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-notification</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-notification-shared</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-user</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-user-shared</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-workflow</artifactId>
-        <version>${project.version}</version>
+        <version>${rcm-framework.version}</version>
         <scope>compile</scope>
       </dependency>
 

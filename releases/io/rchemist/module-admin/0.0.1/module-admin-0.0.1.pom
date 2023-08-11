@@ -55,7 +55,7 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>module-admin-shared</artifactId>
-      <!--<version>${project.version}</version>
+      <!--<version>${rcm-framework.version}</version>
       <scope>compile</scope>
       <type>jar</type>-->
     </dependency>
@@ -63,7 +63,7 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>module-asset</artifactId>
-      <!--<version>${project.version}</version>
+      <!--<version>${rcm-framework.version}</version>
       <scope>compile</scope>
       <type>jar</type>-->
     </dependency>

@@ -35,14 +35,14 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-framework</artifactId>
-      <!--<version>${project.version}</version>
+      <!--<version>${rcm-framework.version}</version>
       <scope>compile</scope>
       <type>jar</type>-->
     </dependency>
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>module-asset-shared</artifactId>
-      <!--<version>${project.version}</version>-->
+      <!--<version>${rcm-framework.version}</version>-->
     </dependency>
     <dependency>
       <groupId>org.springframework.security</groupId>

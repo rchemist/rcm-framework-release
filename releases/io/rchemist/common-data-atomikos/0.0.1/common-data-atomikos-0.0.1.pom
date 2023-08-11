@@ -48,7 +48,7 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-data-hibernate</artifactId>
-      <!--<version>${project.version}</version>-->
+      <!--<version>${rcm-framework.version}</version>-->
     </dependency>
 
     <dependency>
