@@ -24,7 +24,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.rchemist</groupId>
-  <artifactId>module-security-extension</artifactId>
+  <artifactId>module-otp</artifactId>
   <packaging>jar</packaging>
   <version>0.0.1</version>
   <name>Module Security Extension</name>
@@ -55,7 +55,7 @@
 
     <dependency>
       <groupId>io.rchemist</groupId>
-      <artifactId>module-security-extension-shared</artifactId>
+      <artifactId>module-otp-shared</artifactId>
       <!--<version>${rcm-framework.version}</version>
       <scope>compile</scope>
       <type>jar</type>-->

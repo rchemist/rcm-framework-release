@@ -24,7 +24,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.rchemist</groupId>
-  <artifactId>module-security-extension-shared</artifactId>
+  <artifactId>module-otp-shared</artifactId>
   <packaging>jar</packaging>
   <version>0.0.1</version>
   <name>Module Security Extension Shared</name>

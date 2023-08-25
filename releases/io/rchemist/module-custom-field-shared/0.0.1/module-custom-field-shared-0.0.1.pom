@@ -49,13 +49,13 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-framework</artifactId>
-      <!--<version>${rcm-framework.version}</version>-->
+
     </dependency>
 
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-data-hibernate</artifactId>
-      <!--<version>${rcm-framework.version}</version>-->
+
     </dependency>
 
   </dependencies>

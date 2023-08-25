@@ -39,25 +39,30 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-data-jpa</artifactId>
-      <!--<version>${rcm-framework.version}</version>-->
+
     </dependency>
 
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-class-transformer</artifactId>
-      <!--<version>${rcm-framework.version}</version>-->
+
     </dependency>
 
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-extension-manager</artifactId>
-      <!--<version>${rcm-framework.version}</version>-->
+
+    </dependency>
+
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>common-security</artifactId>
     </dependency>
 
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-utils</artifactId>
-      <!--<version>${rcm-framework.version}</version>-->
+
     </dependency>
 
     <dependency>
@@ -68,39 +73,6 @@
       <groupId>com.openhtmltopdf</groupId>
       <artifactId>openhtmltopdf-pdfbox</artifactId>
     </dependency>
-
-    <dependency>
-      <groupId>dev.samstevens.totp</groupId>
-      <artifactId>totp</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-security</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>org.springframework.security</groupId>
-      <artifactId>spring-security-web</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>io.jsonwebtoken</groupId>
-      <artifactId>jjwt-api</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>io.jsonwebtoken</groupId>
-      <artifactId>jjwt-impl</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>io.jsonwebtoken</groupId>
-      <artifactId>jjwt-jackson</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.auth0</groupId>
-      <artifactId>java-jwt</artifactId>
-    </dependency>
-
 
 
   </dependencies>

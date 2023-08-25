@@ -123,8 +123,8 @@
     <module>modules/module-jwt</module>
     <module>modules/module-notification</module>
     <module>modules/module-notification-shared</module>
-    <module>modules/module-security-extension</module>
-    <module>modules/module-security-extension-shared</module>
+    <module>modules/module-otp</module>
+    <module>modules/module-otp-shared</module>
     <module>modules/module-workflow</module>
   </modules>
 
