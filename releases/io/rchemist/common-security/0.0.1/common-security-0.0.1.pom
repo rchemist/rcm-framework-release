@@ -37,18 +37,7 @@
 
     <dependency>
       <groupId>io.rchemist</groupId>
-      <artifactId>common-extension-manager</artifactId>
-
-    </dependency>
-    <dependency>
-      <groupId>io.rchemist</groupId>
-      <artifactId>common-data-jpa</artifactId>
-
-    </dependency>
-
-    <dependency>
-      <groupId>io.rchemist</groupId>
-      <artifactId>common-utils</artifactId>
+      <artifactId>common-framework</artifactId>
 
     </dependency>
 

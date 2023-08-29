@@ -51,6 +51,11 @@
       <artifactId>common-framework</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>common-security</artifactId>
+    </dependency>
+
   </dependencies>
 
   <build>

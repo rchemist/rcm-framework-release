@@ -53,11 +53,13 @@
       <artifactId>common-extension-manager</artifactId>
 
     </dependency>
+<!--
 
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-security</artifactId>
     </dependency>
+-->
 
     <dependency>
       <groupId>io.rchemist</groupId>
