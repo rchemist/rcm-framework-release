@@ -91,6 +91,25 @@
       <artifactId>cglib</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>org.redisson</groupId>
+      <artifactId>redisson-hibernate-6</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>org.hibernate.orm</groupId>
+          <artifactId>hibernate-core</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.hibernate.orm</groupId>
+          <artifactId>hibernate-testing</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+    </dependency>
+
 
   </dependencies>
 
