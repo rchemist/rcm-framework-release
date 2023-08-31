@@ -100,8 +100,9 @@
     <maven-release-plugin.version>3.0.0-M6</maven-release-plugin.version>
     <maven-sure-fire.version>3.0.0</maven-sure-fire.version>
 
-    <spring.boot.version>3.1.1</spring.boot.version>
-    <spring.session.version>3.1.1</spring.session.version>
+    <spring.version>6.0.11</spring.version>
+    <spring.boot.version>3.1.3</spring.boot.version>
+    <spring.session.version>3.1.3</spring.session.version>
     <spring.data.elasticsearch.version>5.1.1</spring.data.elasticsearch.version>
     <!-- spring cloud security version check 필요 -->
     <spring.cloud.security.version>2.2.5.RELEASE</spring.cloud.security.version>
@@ -110,6 +111,8 @@
     <atomikos-transactions.version>6.0.0</atomikos-transactions.version>
     <atomikos-transactions-jta.version>6.0.0</atomikos-transactions-jta.version>
     <atomikos-transactions-jdbc.version>6.0.0</atomikos-transactions-jdbc.version>
+
+    <fastjson.version>2.0.31</fastjson.version>
 
   </properties>
 
@@ -708,16 +711,17 @@
       </dependency>
 
       <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>common-utils</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-        <type>jar</type>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>${fastjson.version}</version>
       </dependency>
+
+
+      <!-- RCM Framework versions -->
 
       <dependency>
         <groupId>io.rchemist</groupId>
-        <artifactId>common-extension-manager</artifactId>
+        <artifactId>common-class-transformer</artifactId>
         <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
@@ -726,14 +730,6 @@
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>common-documentation</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-        <type>jar</type>
-      </dependency>
-
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>common-class-transformer</artifactId>
         <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
@@ -773,6 +769,14 @@
 
       <dependency>
         <groupId>io.rchemist</groupId>
+        <artifactId>common-extension-manager</artifactId>
+        <version>${rcm-framework.version}</version>
+        <scope>compile</scope>
+        <type>jar</type>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
         <artifactId>common-framework</artifactId>
         <version>${rcm-framework.version}</version>
         <scope>compile</scope>
@@ -789,7 +793,7 @@
 
       <dependency>
         <groupId>io.rchemist</groupId>
-        <artifactId>module-workflow</artifactId>
+        <artifactId>common-utils</artifactId>
         <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
@@ -805,7 +809,15 @@
 
       <dependency>
         <groupId>io.rchemist</groupId>
-        <artifactId>module-article-shared</artifactId>
+        <artifactId>module-admin</artifactId>
+        <version>${rcm-framework.version}</version>
+        <scope>compile</scope>
+        <type>jar</type>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>module-admin-shared</artifactId>
         <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
@@ -821,6 +833,46 @@
 
       <dependency>
         <groupId>io.rchemist</groupId>
+        <artifactId>module-article-shared</artifactId>
+        <version>${rcm-framework.version}</version>
+        <scope>compile</scope>
+        <type>jar</type>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>module-asset</artifactId>
+        <version>${rcm-framework.version}</version>
+        <scope>compile</scope>
+        <type>jar</type>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>module-asset-shared</artifactId>
+        <version>${rcm-framework.version}</version>
+        <scope>compile</scope>
+        <type>jar</type>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>module-custom-field</artifactId>
+        <version>${rcm-framework.version}</version>
+        <scope>compile</scope>
+        <type>jar</type>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>module-custom-field-shared</artifactId>
+        <version>${rcm-framework.version}</version>
+        <scope>compile</scope>
+        <type>jar</type>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
         <artifactId>module-jwt</artifactId>
         <version>${rcm-framework.version}</version>
         <scope>compile</scope>
@@ -829,39 +881,12 @@
 
       <dependency>
         <groupId>io.rchemist</groupId>
-        <artifactId>module-admin</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-        <type>jar</type>
-      </dependency>
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-admin-shared</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-        <type>jar</type>
-      </dependency>
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-asset</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-        <type>jar</type>
-      </dependency>
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-asset-shared</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-        <type>jar</type>
-      </dependency>
-      <dependency>
-        <groupId>io.rchemist</groupId>
         <artifactId>module-notification</artifactId>
         <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
       </dependency>
+
       <dependency>
         <groupId>io.rchemist</groupId>
         <artifactId>module-notification-shared</artifactId>
@@ -869,34 +894,32 @@
         <scope>compile</scope>
         <type>jar</type>
       </dependency>
+
       <dependency>
         <groupId>io.rchemist</groupId>
-        <artifactId>module-security-extension</artifactId>
+        <artifactId>module-otp</artifactId>
         <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
       </dependency>
+
       <dependency>
         <groupId>io.rchemist</groupId>
-        <artifactId>module-security-extension-shared</artifactId>
+        <artifactId>module-otp-shared</artifactId>
         <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
       </dependency>
+
       <dependency>
         <groupId>io.rchemist</groupId>
-        <artifactId>module-custom-field</artifactId>
+        <artifactId>module-workflow</artifactId>
         <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
       </dependency>
-      <dependency>
-        <groupId>io.rchemist</groupId>
-        <artifactId>module-custom-field-shared</artifactId>
-        <version>${rcm-framework.version}</version>
-        <scope>compile</scope>
-        <type>jar</type>
-      </dependency>
+
+      <!-- -->
 
     </dependencies>
   </dependencyManagement>
