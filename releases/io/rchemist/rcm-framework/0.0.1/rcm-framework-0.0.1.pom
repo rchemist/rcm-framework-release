@@ -109,6 +109,7 @@
     <module>common/common-framework</module>
     <module>common/common-security</module>
     <module>common/common-utils</module>
+    <module>common/common-webflux</module>
 
     <!-- feature modules -->
     <module>modules/module-activemq</module>
