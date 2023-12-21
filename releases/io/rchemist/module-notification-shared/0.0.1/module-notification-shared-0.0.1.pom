@@ -61,7 +61,7 @@
 
     <dependency>
       <groupId>io.rchemist</groupId>
-      <artifactId>common-data-hibernate</artifactId>
+      <artifactId>common-data-jpa</artifactId>
       <!--<type>jar</type>-->
     </dependency>
 
