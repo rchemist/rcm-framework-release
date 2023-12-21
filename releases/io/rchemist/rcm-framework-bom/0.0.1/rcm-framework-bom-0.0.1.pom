@@ -745,7 +745,7 @@
 
       <dependency>
         <groupId>io.rchemist</groupId>
-        <artifactId>common-data-jpa</artifactId>
+        <artifactId>common-data</artifactId>
         <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
@@ -761,7 +761,7 @@
 
       <dependency>
         <groupId>io.rchemist</groupId>
-        <artifactId>common-data-hibernate</artifactId>
+        <artifactId>common-data-jpa</artifactId>
         <version>${rcm-framework.version}</version>
         <scope>compile</scope>
         <type>jar</type>
