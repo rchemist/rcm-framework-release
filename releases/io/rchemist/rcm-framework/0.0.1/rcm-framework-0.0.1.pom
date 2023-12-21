@@ -102,10 +102,10 @@
   <modules>
     <!-- common modules -->
     <module>common/common-class-transformer</module>
-    <module>common/common-data-atomikos</module>
-    <module>common/common-data-hibernate</module>
+    <module>common/common-data</module>
     <module>common/common-data-jpa</module>
     <module>common/common-data-mongo</module>
+    <module>common/common-data-atomikos</module>
     <module>common/common-documentation</module>
     <module>common/common-extension-manager</module>
     <module>common/common-framework</module>
