@@ -50,7 +50,7 @@
 
     <dependency>
       <groupId>io.rchemist</groupId>
-      <artifactId>common-data-jpa</artifactId>
+      <artifactId>common-data</artifactId>
     </dependency>
 
     <dependency>
