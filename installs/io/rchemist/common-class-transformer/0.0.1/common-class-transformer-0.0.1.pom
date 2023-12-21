@@ -40,8 +40,6 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-utils</artifactId>
-      <!--<version>0.0.1</version>
-      <scope>compile</scope>-->
     </dependency>
 
     <dependency>

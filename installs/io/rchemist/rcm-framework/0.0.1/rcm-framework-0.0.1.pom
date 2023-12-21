@@ -25,7 +25,6 @@
     <version>0.0.1</version>
   </parent>
 
-  <groupId>io.rchemist</groupId>
   <packaging>pom</packaging>
   <artifactId>rcm-framework</artifactId>
   <version>0.0.1</version>
@@ -103,14 +102,16 @@
   <modules>
     <!-- common modules -->
     <module>common/common-class-transformer</module>
-    <module>common/common-data-atomikos</module>
-    <module>common/common-data-hibernate</module>
+    <module>common/common-data</module>
     <module>common/common-data-jpa</module>
     <module>common/common-data-mongo</module>
+    <module>common/common-data-atomikos</module>
     <module>common/common-documentation</module>
     <module>common/common-extension-manager</module>
     <module>common/common-framework</module>
+    <module>common/common-security</module>
     <module>common/common-utils</module>
+    <module>common/common-webflux</module>
 
     <!-- feature modules -->
     <module>modules/module-activemq</module>
