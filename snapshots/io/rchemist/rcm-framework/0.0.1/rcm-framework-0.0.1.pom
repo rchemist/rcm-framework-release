@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ /*
+  ~  *  Copyright (c) "2023". rchemist.io by Rchemist
+  ~  *  Licensed under the Rchemist Common License, Version 1.0 (the "License");
+  ~  *  you may not use this file except in compliance with the License.
+  ~  *  You may obtain a copy of the License under controlled by Rchemist
+  ~  *
+  ~  *  Unless required by applicable law or agreed to in writing, software
+  ~  *  distributed under the License is distributed on an "AS IS" BASIS,
+  ~  *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  *  See the License for the specific language governing permissions and
+  ~  *  limitations under the License.
+  ~  */
+  -->
+
+<project  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.rchemist</groupId>
+    <artifactId>rcm-framework-bom</artifactId>
+    <version>0.0.1</version>
+  </parent>
+
+  <packaging>pom</packaging>
+  <artifactId>rcm-framework</artifactId>
+  <version>0.0.1</version>
+  <name>RCM-Framework</name>
+  <description>Rchemist Framework :: for developing high-performance web services quickly and easily.</description>
+  <properties>
+    <java.version>17</java.version>
+    <project.version>0.0.1</project.version>
+    <rcm-platform.version>0.0.1</rcm-platform.version>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo1.maven.org/maven2/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>JabyIon</id>
+      <url>https://www.jabylon.org/maven/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>Clojars</id>
+      <url>https://clojars.org/repo/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>jcenter</id>
+      <url>https://jcenter.bintray.com/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>jitpack</id>
+      <url>https://jitpack.io/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>rchemist.invesdwin.mirror</id>
+      <url>https://github.com/rchemist/release-invesdwin-instrument/raw/main/releases</url>
+    </repository>
+    <repository>
+      <id>rchemist.releases</id>
+      <url>https://github.com/rchemist/rcm-framework-release/raw/main/releases</url>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>spring-snapshots</id>
+      <url>https://repo.spring.io/snapshot</url>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+    <repository>
+      <id>spring-milestones</id>
+      <url>https://repo.spring.io/milestone</url>
+    </repository>
+  </repositories>
+
+  <modules>
+    <!-- common modules -->
+    <module>common/common-class-transformer</module>
+    <module>common/common-data</module>
+    <module>common/common-data-jpa</module>
+    <module>common/common-data-mongo</module>
+    <module>common/common-data-atomikos</module>
+    <module>common/common-documentation</module>
+    <module>common/common-extension-manager</module>
+    <module>common/common-framework</module>
+    <module>common/common-security</module>
+    <module>common/common-utils</module>
+    <module>common/common-webflux</module>
+
+    <!-- feature modules -->
+    <module>modules/module-activemq</module>
+    <module>modules/module-admin</module>
+    <module>modules/module-admin-shared</module>
+    <module>modules/module-article</module>
+    <module>modules/module-article-shared</module>
+    <module>modules/module-asset</module>
+    <module>modules/module-asset-shared</module>
+    <module>modules/module-custom-field</module>
+    <module>modules/module-custom-field-shared</module>
+    <module>modules/module-jwt</module>
+    <module>modules/module-notification</module>
+    <module>modules/module-notification-shared</module>
+    <module>modules/module-otp</module>
+    <module>modules/module-otp-shared</module>
+    <module>modules/module-workflow</module>
+  </modules>
+
+  <pluginRepositories>
+    <!-- The order of definitions matters. Explicitly defining central here to make sure it has the highest priority. -->
+    <pluginRepository>
+      <id>central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </pluginRepository>
+
+    <pluginRepository>
+      <id>spring milestones</id>
+      <url>https://repo.spring.io/milestone</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+</project>
