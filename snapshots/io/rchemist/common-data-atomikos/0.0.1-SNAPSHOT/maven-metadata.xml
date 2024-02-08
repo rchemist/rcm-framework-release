@@ -3,27 +3,27 @@
   <groupId>io.rchemist</groupId>
   <artifactId>common-data-atomikos</artifactId>
   <versioning>
-    <lastUpdated>20240208022806</lastUpdated>
+    <lastUpdated>20240208024333</lastUpdated>
     <snapshot>
-      <timestamp>20240208.022806</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20240208.024333</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.1-20240208.022806-2</value>
-        <updated>20240208022806</updated>
+        <value>0.0.1-20240208.024333-3</value>
+        <updated>20240208024333</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.1-20240208.022806-2</value>
-        <updated>20240208022806</updated>
+        <value>0.0.1-20240208.024333-3</value>
+        <updated>20240208024333</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-20240208.022806-2</value>
-        <updated>20240208022806</updated>
+        <value>0.0.1-20240208.024333-3</value>
+        <updated>20240208024333</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
