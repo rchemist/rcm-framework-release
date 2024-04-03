@@ -483,12 +483,6 @@
       </dependency>
 
       <dependency>
-        <groupId>org.hibernate.search</groupId>
-        <artifactId>hibernate-search-backend-elasticsearch-aws</artifactId>
-        <version>${hibernate.elasticsearch.version}</version>
-      </dependency>
-
-      <dependency>
         <groupId>org.redisson</groupId>
         <artifactId>redisson-hibernate-6</artifactId>
         <version>${redisson-hibernate.version}</version>
