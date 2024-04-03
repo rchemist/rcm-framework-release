@@ -33,7 +33,7 @@
   <properties>
     <java.version>17</java.version>
     <project.version>0.0.1-SNAPSHOT</project.version>
-    <rcm-platform.version>0.0.1</rcm-platform.version>
+    <rcm-platform.version>0.0.2</rcm-platform.version>
   </properties>
 
   <repositories>
