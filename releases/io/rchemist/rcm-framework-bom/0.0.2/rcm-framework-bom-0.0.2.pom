@@ -36,7 +36,7 @@
     <maven.compiler.target>17</maven.compiler.target>
     <maven.compiler.source>17</maven.compiler.source>
     <project.version>0.0.2</project.version>
-    <rcm-framework.version>0.0.1</rcm-framework.version>
+    <rcm-framework.version>0.0.2</rcm-framework.version>
     <apache.commons.io.version>2.16.0</apache.commons.io.version>
     <apache.commons.lang3.version>3.14.0</apache.commons.lang3.version>
     <apache.commons.collections4.version>4.4</apache.commons.collections4.version>
