@@ -20,7 +20,7 @@
   <parent>
     <artifactId>rcm-framework</artifactId>
     <groupId>io.rchemist</groupId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
@@ -28,7 +28,7 @@
   <groupId>io.rchemist</groupId>
   <artifactId>module-custom-field</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <name>Module CustomField</name>
   <description>
     커스텀필드

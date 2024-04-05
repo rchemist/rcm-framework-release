@@ -22,19 +22,19 @@
   <parent>
     <artifactId>rcm-framework</artifactId>
     <groupId>io.rchemist</groupId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
   <groupId>io.rchemist</groupId>
   <packaging>jar</packaging>
   <artifactId>common-documentation</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <name>Common Documentation</name>
   <description>Rchemist Common modules :: documentation</description>
   <properties>
     <java.version>21</java.version>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
   </properties>
 
   <dependencies>
@@ -42,7 +42,7 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-utils</artifactId>
-      <!--<version>0.0.2-SNAPSHOT</version>-->
+      <!--<version>0.0.3-SNAPSHOT</version>-->
     </dependency>
 
     <dependency>

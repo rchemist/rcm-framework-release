@@ -20,7 +20,7 @@
   <parent>
     <artifactId>rcm-framework</artifactId>
     <groupId>io.rchemist</groupId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
@@ -29,7 +29,7 @@
   <artifactId>module-article-shared</artifactId>
   <packaging>jar</packaging>
   <name>Module Article Shared</name>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <description>
     Article module 의 Shared 프로젝트
   </description>

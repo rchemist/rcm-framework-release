@@ -11,10 +11,10 @@
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.2-20240405.072732-7</value>
+        <value>0.0.3-20240405.072732-7</value>
         <updated>20240405072732</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
 </metadata>

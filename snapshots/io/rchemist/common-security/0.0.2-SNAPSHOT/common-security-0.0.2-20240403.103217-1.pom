@@ -22,13 +22,13 @@
   <parent>
     <artifactId>rcm-framework</artifactId>
     <groupId>io.rchemist</groupId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
   <packaging>jar</packaging>
   <artifactId>common-security</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <name>Common Security</name>
   <description>Rchemist Common modules :: Security</description>
   <properties>
