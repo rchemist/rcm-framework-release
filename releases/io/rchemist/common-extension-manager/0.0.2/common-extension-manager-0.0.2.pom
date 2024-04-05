@@ -33,7 +33,7 @@
   <name>Common ExtensionManager</name>
   <description>Rchemist Common modules :: extension manager</description>
   <properties>
-    <java.version>21</java.version>
+    <java.version>17</java.version>
     <apache.commons.io.version>2.11.0</apache.commons.io.version>
     <apache.commons.collections4.version>4.3</apache.commons.collections4.version>
     <apache.commons.beanutils.version>1.9.3</apache.commons.beanutils.version>
