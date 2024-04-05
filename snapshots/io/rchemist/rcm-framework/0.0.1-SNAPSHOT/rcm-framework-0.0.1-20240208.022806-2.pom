@@ -31,7 +31,7 @@
   <name>RCM-Framework</name>
   <description>Rchemist Framework :: for developing high-performance web services quickly and easily.</description>
   <properties>
-    <java.version>17</java.version>
+    <java.version>21</java.version>
     <project.version>0.0.1-SNAPSHOT</project.version>
     <rcm-platform.version>0.0.2</rcm-platform.version>
   </properties>
