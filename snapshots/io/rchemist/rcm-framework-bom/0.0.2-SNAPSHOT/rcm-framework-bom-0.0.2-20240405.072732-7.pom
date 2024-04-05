@@ -64,7 +64,7 @@
     <jjwt.version>0.9.1</jjwt.version>
     <jjwt.sub.version>0.11.5</jjwt.sub.version>
     <redisson-hibernate.version>3.27.2</redisson-hibernate.version>
-    <lombok.version>1.18.26</lombok.version>
+    <lombok.version>1.18.32</lombok.version>
     <thymeleaf.extras.java8time>3.0.4.RELEASE</thymeleaf.extras.java8time>
     <thymeleaf.extras.data.attribute.version>2.0.1</thymeleaf.extras.data.attribute.version>
     <thymeleaf.extras.springsecurity5.version>3.1.0.M1</thymeleaf.extras.springsecurity5.version>
