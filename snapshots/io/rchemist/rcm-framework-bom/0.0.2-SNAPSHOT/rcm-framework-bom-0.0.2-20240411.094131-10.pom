@@ -899,6 +899,22 @@
         <type>jar</type>
       </dependency>
 
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>module-todolist</artifactId>
+        <version>${rcm-framework.version}</version>
+        <scope>compile</scope>
+        <type>jar</type>
+      </dependency>
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>module-todolist-shared</artifactId>
+        <version>${rcm-framework.version}</version>
+        <scope>compile</scope>
+        <type>jar</type>
+      </dependency>
+
       <!-- -->
 
     </dependencies>
