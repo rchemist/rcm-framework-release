@@ -22,18 +22,18 @@
   <parent>
     <artifactId>rcm-framework</artifactId>
     <groupId>io.rchemist</groupId>
-    <version>0.0.3</version>
+    <version>0.0.2</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
   <groupId>io.rchemist</groupId>
   <packaging>jar</packaging>
   <artifactId>common-data-mongo</artifactId>
-  <version>0.0.3</version>
+  <version>0.0.2</version>
   <name>Common Data Mongo</name>
   <description>Rchemist Common modules :: data MongoDB</description>
   <properties>
-    <java.version>21</java.version>
+    <java.version>17</java.version>
   </properties>
 
   <dependencies>
@@ -87,9 +87,9 @@
         <configuration>
           <verbose>true</verbose>
           <fork>true</fork>
-          <compilerVersion>21</compilerVersion>
-          <source>21</source>
-          <target>21</target>
+          <compilerVersion>17</compilerVersion>
+          <source>17</source>
+          <target>17</target>
           <forceJavacCompilerUse>true</forceJavacCompilerUse>
         </configuration>
       </plugin>

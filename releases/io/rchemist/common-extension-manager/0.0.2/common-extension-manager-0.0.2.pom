@@ -22,18 +22,18 @@
   <parent>
     <artifactId>rcm-framework</artifactId>
     <groupId>io.rchemist</groupId>
-    <version>0.0.3</version>
+    <version>0.0.2</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
   <groupId>io.rchemist</groupId>
   <packaging>jar</packaging>
   <artifactId>common-extension-manager</artifactId>
-  <version>0.0.3</version>
+  <version>0.0.2</version>
   <name>Common ExtensionManager</name>
   <description>Rchemist Common modules :: extension manager</description>
   <properties>
-    <java.version>21</java.version>
+    <java.version>17</java.version>
     <apache.commons.io.version>2.11.0</apache.commons.io.version>
     <apache.commons.collections4.version>4.3</apache.commons.collections4.version>
     <apache.commons.beanutils.version>1.9.3</apache.commons.beanutils.version>
