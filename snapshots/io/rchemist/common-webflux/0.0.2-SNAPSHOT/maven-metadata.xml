@@ -3,27 +3,27 @@
   <groupId>io.rchemist</groupId>
   <artifactId>common-webflux</artifactId>
   <versioning>
-    <lastUpdated>20240613035040</lastUpdated>
+    <lastUpdated>20240613043616</lastUpdated>
     <snapshot>
-      <timestamp>20240613.035040</timestamp>
-      <buildNumber>21</buildNumber>
+      <timestamp>20240613.043616</timestamp>
+      <buildNumber>22</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.2-20240613.035040-21</value>
-        <updated>20240613035040</updated>
+        <value>0.0.2-20240613.043616-22</value>
+        <updated>20240613043616</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.2-20240613.035040-21</value>
-        <updated>20240613035040</updated>
+        <value>0.0.2-20240613.043616-22</value>
+        <updated>20240613043616</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.2-20240613.035040-21</value>
-        <updated>20240613035040</updated>
+        <value>0.0.2-20240613.043616-22</value>
+        <updated>20240613043616</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
