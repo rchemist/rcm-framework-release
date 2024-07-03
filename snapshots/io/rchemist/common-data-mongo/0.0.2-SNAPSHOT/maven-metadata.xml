@@ -3,27 +3,27 @@
   <groupId>io.rchemist</groupId>
   <artifactId>common-data-mongo</artifactId>
   <versioning>
-    <lastUpdated>20240701062345</lastUpdated>
+    <lastUpdated>20240703050945</lastUpdated>
     <snapshot>
-      <timestamp>20240701.062345</timestamp>
-      <buildNumber>27</buildNumber>
+      <timestamp>20240703.050945</timestamp>
+      <buildNumber>28</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.2-20240701.062345-27</value>
-        <updated>20240701062345</updated>
+        <value>0.0.2-20240703.050945-28</value>
+        <updated>20240703050945</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.2-20240701.062345-27</value>
-        <updated>20240701062345</updated>
+        <value>0.0.2-20240703.050945-28</value>
+        <updated>20240703050945</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.2-20240701.062345-27</value>
-        <updated>20240701062345</updated>
+        <value>0.0.2-20240703.050945-28</value>
+        <updated>20240703050945</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
