@@ -106,6 +106,8 @@
     <maven-release-plugin.version>3.0.0-M6</maven-release-plugin.version>
     <maven-sure-fire.version>3.0.0</maven-sure-fire.version>
 
+    <slack.version>1.40.3</slack.version>
+
     <spring.version>6.0.11</spring.version>
     <spring.boot.version>3.2.4</spring.boot.version>
     <spring.session.version>3.2.2</spring.session.version>
@@ -471,6 +473,12 @@
         <groupId>org.hibernate.orm</groupId>
         <artifactId>hibernate-jcache</artifactId>
         <version>${hibernate.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.slack.api</groupId>
+        <artifactId>slack-api-client</artifactId>
+        <version>${slack.version}</version>
       </dependency>
 
 
