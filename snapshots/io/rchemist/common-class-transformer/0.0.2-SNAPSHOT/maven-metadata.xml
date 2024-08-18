@@ -3,27 +3,27 @@
   <groupId>io.rchemist</groupId>
   <artifactId>common-class-transformer</artifactId>
   <versioning>
-    <lastUpdated>20240812142857</lastUpdated>
+    <lastUpdated>20240818203051</lastUpdated>
     <snapshot>
-      <timestamp>20240812.142857</timestamp>
-      <buildNumber>54</buildNumber>
+      <timestamp>20240818.203051</timestamp>
+      <buildNumber>55</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.2-20240812.142857-54</value>
-        <updated>20240812142857</updated>
+        <value>0.0.2-20240818.203051-55</value>
+        <updated>20240818203051</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.2-20240812.142857-54</value>
-        <updated>20240812142857</updated>
+        <value>0.0.2-20240818.203051-55</value>
+        <updated>20240818203051</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.2-20240812.142857-54</value>
-        <updated>20240812142857</updated>
+        <value>0.0.2-20240818.203051-55</value>
+        <updated>20240818203051</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
