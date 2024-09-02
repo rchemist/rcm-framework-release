@@ -710,7 +710,7 @@
       <dependency>
         <groupId>com.github.f4b6a3</groupId>
         <artifactId>ulid-creator</artifactId>
-        <version>${ulid-creator.version}}</version>
+        <version>${ulid-creator.version}</version>
       </dependency>
 
 
