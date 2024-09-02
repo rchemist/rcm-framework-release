@@ -84,6 +84,11 @@
       <artifactId>fastjson</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>io.hypersistence</groupId>
+      <artifactId>hypersistence-tsid</artifactId>
+    </dependency>
+
   </dependencies>
 
   <distributionManagement>
