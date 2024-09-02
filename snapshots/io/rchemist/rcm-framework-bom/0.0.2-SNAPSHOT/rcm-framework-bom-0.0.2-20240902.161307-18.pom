@@ -121,6 +121,7 @@
     <atomikos-transactions-jdbc.version>6.0.0</atomikos-transactions-jdbc.version>
 
     <fastjson.version>2.0.48</fastjson.version>
+    <ulid-creator.version>5.2.3</ulid-creator.version>
 
   </properties>
 
@@ -703,6 +704,13 @@
         <groupId>com.alibaba</groupId>
         <artifactId>fastjson</artifactId>
         <version>${fastjson.version}</version>
+      </dependency>
+
+      <!-- ULID -->
+      <dependency>
+        <groupId>com.github.f4b6a3</groupId>
+        <artifactId>ulid-creator</artifactId>
+        <version>${ulid-creator.version}}</version>
       </dependency>
 
 
