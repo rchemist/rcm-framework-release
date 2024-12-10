@@ -70,7 +70,7 @@
     <thymeleaf.extras.data.attribute.version>2.0.1</thymeleaf.extras.data.attribute.version>
     <thymeleaf.extras.springsecurity5.version>3.1.2.RELEASE</thymeleaf.extras.springsecurity5.version>
     <thymeleaf-layout-dialect.version>3.3.0</thymeleaf-layout-dialect.version>
-    <javaassist.version>3.30.2-GA</javaassist.version>
+    <javaassist.version>3.29.2-GA</javaassist.version>
     <jedis.version>5.2.0</jedis.version>
     <javax-cache.version>1.1.1</javax-cache.version>
     <querydsl.version>5.0.0</querydsl.version>
