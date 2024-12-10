@@ -512,7 +512,7 @@
 
       <dependency>
         <groupId>com.konghq</groupId>
-        <artifactId>unirest-java-core</artifactId>
+        <artifactId>unirest-java</artifactId>
         <version>${unirest.version}</version>
       </dependency>
 
