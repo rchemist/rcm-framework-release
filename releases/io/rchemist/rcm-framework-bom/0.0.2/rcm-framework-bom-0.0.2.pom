@@ -59,12 +59,12 @@
     <reflections.version>0.10.2</reflections.version>
     <send.in.blue.version>7.0.0</send.in.blue.version>
     <hibernate.version>6.4.4.Final</hibernate.version>
-    <hibernate.search.version>7.1.0.Final</hibernate.search.version>
+    <hibernate.search.version>7.1.1.Final</hibernate.search.version>
     <elasticsearch.client.version>8.8.2</elasticsearch.client.version>
     <komoran.version>3.3.4</komoran.version>
     <jjwt.version>0.9.1</jjwt.version>
     <jjwt.sub.version>0.11.5</jjwt.sub.version>
-    <redisson-hibernate.version>3.27.2</redisson-hibernate.version>
+    <redisson-hibernate.version>3.32.0</redisson-hibernate.version>
     <lombok.version>1.18.32</lombok.version>
     <thymeleaf.extras.java8time>3.0.4.RELEASE</thymeleaf.extras.java8time>
     <thymeleaf.extras.data.attribute.version>2.0.1</thymeleaf.extras.data.attribute.version>
@@ -106,6 +106,8 @@
     <maven-release-plugin.version>3.0.0-M6</maven-release-plugin.version>
     <maven-sure-fire.version>3.0.0</maven-sure-fire.version>
 
+    <slack.version>1.40.3</slack.version>
+
     <spring.version>6.0.11</spring.version>
     <spring.boot.version>3.2.4</spring.boot.version>
     <spring.session.version>3.2.2</spring.session.version>
@@ -119,6 +121,7 @@
     <atomikos-transactions-jdbc.version>6.0.0</atomikos-transactions-jdbc.version>
 
     <fastjson.version>2.0.48</fastjson.version>
+    <hypersistence-tsid.version>2.1.2</hypersistence-tsid.version>
 
   </properties>
 
@@ -473,6 +476,12 @@
         <version>${hibernate.version}</version>
       </dependency>
 
+      <dependency>
+        <groupId>com.slack.api</groupId>
+        <artifactId>slack-api-client</artifactId>
+        <version>${slack.version}</version>
+      </dependency>
+
 
       <!-- Import Hibernate Search BOM to get all of its artifact versions aligned: -->
       <dependency>
@@ -503,7 +512,7 @@
 
       <dependency>
         <groupId>com.konghq</groupId>
-        <artifactId>unirest-java-core</artifactId>
+        <artifactId>unirest-java</artifactId>
         <version>${unirest.version}</version>
       </dependency>
 
@@ -695,6 +704,13 @@
         <groupId>com.alibaba</groupId>
         <artifactId>fastjson</artifactId>
         <version>${fastjson.version}</version>
+      </dependency>
+
+      <!-- ULID -->
+      <dependency>
+        <groupId>io.hypersistence</groupId>
+        <artifactId>hypersistence-tsid</artifactId>
+        <version>${hypersistence-tsid.version}</version>
       </dependency>
 
 
