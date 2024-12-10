@@ -3,7 +3,7 @@
   <groupId>io.rchemist</groupId>
   <artifactId>common-data-jpa</artifactId>
   <versioning>
-    <release>0.0.2</release>
+    <release>0.0.3</release>
     <versions>
       <version>0.0.1</version>
       <version>0.0.3</version>

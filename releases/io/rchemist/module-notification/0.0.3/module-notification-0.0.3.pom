@@ -86,13 +86,13 @@
       <artifactId>libphonenumber</artifactId>
     </dependency>
     <dependency>
-      <groupId>com.amazonaws</groupId>
-      <artifactId>aws-java-sdk-ses</artifactId>
+      <groupId>software.amazon.awssdk</groupId>
+      <artifactId>ses</artifactId>
     </dependency>
 
     <dependency>
       <groupId>com.konghq</groupId>
-      <artifactId>unirest-java</artifactId>
+      <artifactId>unirest-java-core</artifactId>
     </dependency>
 
   </dependencies>
