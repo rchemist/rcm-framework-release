@@ -33,7 +33,7 @@
   <name>Common Utils</name>
   <description>Rchemist Common modules :: utils</description>
   <properties>
-    <java.version>21</java.version>
+    <java.version>17</java.version>
   </properties>
 
   <dependencies>
@@ -47,11 +47,6 @@
     <dependency>
       <groupId>io.rchemist</groupId>
       <artifactId>common-extension-manager</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>com.googlecode.juniversalchardet</groupId>
-      <artifactId>juniversalchardet</artifactId>
     </dependency>
 
     <dependency>
@@ -82,6 +77,11 @@
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>io.hypersistence</groupId>
+      <artifactId>hypersistence-tsid</artifactId>
     </dependency>
 
   </dependencies>

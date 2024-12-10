@@ -52,6 +52,12 @@
       <artifactId>spring-security-web</artifactId>
     </dependency>
 
+    <dependency>
+      <groupId>net.coobird</groupId>
+      <artifactId>thumbnailator</artifactId>
+      <version>0.4.20</version>
+    </dependency>
+
   </dependencies>
 
   <build>
@@ -85,7 +91,7 @@
         <configuration>
           <verbose>true</verbose>
           <fork>true</fork>
-          <compilerVersion>21</compilerVersion>
+          <compilerVersion>17</compilerVersion>
           <forceJavacCompilerUse>true</forceJavacCompilerUse></configuration>
       </plugin>
 
