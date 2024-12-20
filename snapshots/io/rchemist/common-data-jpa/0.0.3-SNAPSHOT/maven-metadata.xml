@@ -3,27 +3,27 @@
   <groupId>io.rchemist</groupId>
   <artifactId>common-data-jpa</artifactId>
   <versioning>
-    <lastUpdated>20241220162904</lastUpdated>
+    <lastUpdated>20241220164417</lastUpdated>
     <snapshot>
-      <timestamp>20241220.162904</timestamp>
-      <buildNumber>11</buildNumber>
+      <timestamp>20241220.164417</timestamp>
+      <buildNumber>12</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.3-20241220.162904-11</value>
-        <updated>20241220162904</updated>
+        <value>0.0.3-20241220.164417-12</value>
+        <updated>20241220164417</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.3-20241220.162904-11</value>
-        <updated>20241220162904</updated>
+        <value>0.0.3-20241220.164417-12</value>
+        <updated>20241220164417</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.3-20241220.162904-11</value>
-        <updated>20241220162904</updated>
+        <value>0.0.3-20241220.164417-12</value>
+        <updated>20241220164417</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
