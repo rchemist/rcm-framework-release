@@ -3,27 +3,27 @@
   <groupId>io.rchemist</groupId>
   <artifactId>common-data</artifactId>
   <versioning>
-    <lastUpdated>20250802193728</lastUpdated>
+    <lastUpdated>20250802194131</lastUpdated>
     <snapshot>
-      <timestamp>20250802.193728</timestamp>
-      <buildNumber>7</buildNumber>
+      <timestamp>20250802.194131</timestamp>
+      <buildNumber>8</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.4-20250802.193728-7</value>
-        <updated>20250802193728</updated>
+        <value>0.0.4-20250802.194131-8</value>
+        <updated>20250802194131</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.4-20250802.193728-7</value>
-        <updated>20250802193728</updated>
+        <value>0.0.4-20250802.194131-8</value>
+        <updated>20250802194131</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.4-20250802.193728-7</value>
-        <updated>20250802193728</updated>
+        <value>0.0.4-20250802.194131-8</value>
+        <updated>20250802194131</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
