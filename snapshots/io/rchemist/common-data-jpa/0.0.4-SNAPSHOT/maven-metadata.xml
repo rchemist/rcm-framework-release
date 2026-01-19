@@ -3,33 +3,33 @@
   <groupId>io.rchemist</groupId>
   <artifactId>common-data-jpa</artifactId>
   <versioning>
-    <lastUpdated>20260106110637</lastUpdated>
+    <lastUpdated>20260119062100</lastUpdated>
     <snapshot>
-      <timestamp>20260106.110637</timestamp>
-      <buildNumber>24</buildNumber>
+      <timestamp>20260119.062100</timestamp>
+      <buildNumber>25</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.4-20260106.110637-24</value>
-        <updated>20260106110637</updated>
+        <value>0.0.4-20260119.062100-25</value>
+        <updated>20260119062100</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.0.4-20260106.110637-24</value>
-        <updated>20260106110637</updated>
+        <value>0.0.4-20260119.062100-25</value>
+        <updated>20260119062100</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>tests</classifier>
         <extension>jar</extension>
-        <value>0.0.4-20260106.110637-24</value>
-        <updated>20260106110637</updated>
+        <value>0.0.4-20260119.062100-25</value>
+        <updated>20260119062100</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.4-20260106.110637-24</value>
-        <updated>20260106110637</updated>
+        <value>0.0.4-20260119.062100-25</value>
+        <updated>20260119062100</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
