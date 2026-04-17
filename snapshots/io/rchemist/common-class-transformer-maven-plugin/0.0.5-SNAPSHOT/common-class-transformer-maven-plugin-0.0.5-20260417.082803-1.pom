@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~  Copyright (c) "2025". rchemist.io by Rchemist
+  ~  Licensed under the Rchemist Common License, Version 1.0 (the "License");
+  ~  you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License under controlled by Rchemist
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software
+  ~  distributed under the License is distributed on an "AS IS" BASIS,
+  ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and
+  ~  limitations under the License.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>rcm-framework</artifactId>
+    <groupId>io.rchemist</groupId>
+    <version>0.0.5-SNAPSHOT</version>
+    <relativePath>../../pom.xml</relativePath>
+  </parent>
+
+  <groupId>io.rchemist</groupId>
+  <artifactId>common-class-transformer-maven-plugin</artifactId>
+  <version>0.0.5-SNAPSHOT</version>
+  <packaging>maven-plugin</packaging>
+
+  <name>RCM-Framework :: Common :: Class Transformer Maven Plugin</name>
+  <description>
+    Build-time bytecode enhancement Maven plugin for rcm-framework templates.
+    Replaces the runtime Javassist weaving path previously performed at Spring
+    context startup. The 0.0.x series keeps the runtime path as a fallback; this
+    plugin writes a @ClassEnhanced marker that the runtime path uses to skip
+    already-enhanced classes. 0.1.0 removes the runtime path entirely.
+  </description>
+
+  <properties>
+    <maven.api.version>3.9.6</maven.api.version>
+    <maven.plugin.tools.version>3.10.2</maven.plugin.tools.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-plugin-api</artifactId>
+      <version>${maven.api.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-core</artifactId>
+      <version>${maven.api.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugin-tools</groupId>
+      <artifactId>maven-plugin-annotations</artifactId>
+      <version>${maven.plugin.tools.version}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!--
+      common-class-transformer 의존은 변환 로직 이식 시 활성화한다.
+      0.0.5 스켈레톤 단계에서는 Mojo 가 관측 로그만 출력하므로 순환 의존을
+      피하기 위해 의존을 비워 둔다.
+
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>common-class-transformer</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+    -->
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-plugin-plugin</artifactId>
+        <version>${maven.plugin.tools.version}</version>
+        <configuration>
+          <goalPrefix>rcm-enhance</goalPrefix>
+        </configuration>
+        <executions>
+          <execution>
+            <id>default-descriptor</id>
+            <phase>process-classes</phase>
+          </execution>
+          <execution>
+            <id>help-descriptor</id>
+            <phase>process-classes</phase>
+            <goals>
+              <goal>helpmojo</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>
