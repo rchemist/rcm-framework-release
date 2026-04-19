@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.rchemist</groupId>
+  <artifactId>coverage-report</artifactId>
+  <versioning>
+    <lastUpdated>20260419143437</lastUpdated>
+    <snapshot>
+      <timestamp>20260419.143437</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.5-20260419.143437-1</value>
+        <updated>20260419143437</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.0.5-SNAPSHOT</version>
+</metadata>

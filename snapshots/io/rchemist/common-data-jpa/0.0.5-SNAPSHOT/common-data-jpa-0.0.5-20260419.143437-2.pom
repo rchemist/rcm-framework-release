@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~  Copyright (c) "2025". rchemist.io by Rchemist
+  ~  Licensed under the Rchemist Common License, Version 1.0 (the "License");
+  ~  you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License under controlled by Rchemist
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software
+  ~  distributed under the License is distributed on an "AS IS" BASIS,
+  ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and
+  ~  limitations under the License.
+  -->
+
+<project  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>rcm-framework</artifactId>
+    <groupId>io.rchemist</groupId>
+    <version>0.0.5-SNAPSHOT</version>
+    <relativePath>../../pom.xml</relativePath>
+  </parent>
+
+  <groupId>io.rchemist</groupId>
+  <packaging>jar</packaging>
+  <artifactId>common-data-jpa</artifactId>
+  <version>0.0.5-SNAPSHOT</version>
+  <name>Common Data Hibernate</name>
+  <description>Rchemist Common modules :: SpringDataJpa with Hibernate</description>
+  <properties>
+    <java.version>17</java.version>
+  </properties>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>common-data</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>org.apache.tomcat</groupId>
+          <artifactId>tomcat-jdbc</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.hibernate</groupId>
+          <artifactId>hibernate-core</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <!-- <dependency>
+      <groupId>de.invesdwin</groupId>
+      <artifactId>invesdwin-instrument</artifactId>
+    </dependency> -->
+
+    <dependency>
+      <groupId>org.hibernate.orm</groupId>
+      <artifactId>hibernate-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate.search</groupId>
+      <artifactId>hibernate-search-mapper-orm</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate.search</groupId>
+      <artifactId>hibernate-search-backend-elasticsearch</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate.search</groupId>
+      <artifactId>hibernate-search-backend-elasticsearch-aws</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.mysql</groupId>
+      <artifactId>mysql-connector-j</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-cache</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-redis</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.redisson</groupId>
+      <artifactId>redisson-hibernate-6</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax.cache</groupId>
+      <artifactId>cache-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate.orm</groupId>
+      <artifactId>hibernate-jcache</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-elasticsearch</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.elasticsearch.client</groupId>
+      <artifactId>elasticsearch-rest-client</artifactId>
+    </dependency>
+
+    <!--<dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-jta-atomikos</artifactId>
+    </dependency>-->
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-validation</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>cglib</groupId>
+      <artifactId>cglib</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.dhatim</groupId>
+      <artifactId>fastexcel</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.dhatim</groupId>
+      <artifactId>fastexcel-reader</artifactId>
+    </dependency>
+
+    <!-- Test Dependencies -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>org.junit.platform</groupId>
+          <artifactId>junit-platform-launcher</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    
+    <!-- Fix JUnit platform version -->
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-launcher</artifactId>
+      <version>1.11.3</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-junit-jupiter</artifactId>
+      <scope>test</scope>
+    </dependency>
+    
+    <dependency>
+      <groupId>com.github.codemonstur</groupId>
+      <artifactId>embedded-redis</artifactId>
+      <version>1.4.3</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>io.hypersistence</groupId>
+      <artifactId>hypersistence-utils-hibernate-62</artifactId>
+      <version>3.7.3</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.testcontainers</groupId>
+      <artifactId>testcontainers</artifactId>
+      <version>${testcontainers.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.testcontainers</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>${testcontainers.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.testcontainers</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>${testcontainers.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <systemPropertyVariables>
+            <spring.main.lazy-initialization>true</spring.main.lazy-initialization>
+            <spring.jpa.defer-datasource-initialization>true</spring.jpa.defer-datasource-initialization>
+          </systemPropertyVariables>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>3.2.1</version>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>jar-no-fork</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <!-- Test JAR plugin for sharing test environment utilities -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.3.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>test-jar</goal>
+            </goals>
+            <configuration>
+              <includes>
+                <!-- Core test environment setup classes -->
+                <include>**/integration/BaseIntegrationTest.class</include>
+                <include>**/TestContextInitializer.class</include>
+                <include>**/config/EmbeddedRedisTestConfig.class</include>
+                <!-- Test configuration resources -->
+                <include>application-test.yml</include>
+                <include>bootstrap.yml</include>
+                <include>redisson-test.yml</include>
+                <include>junit-platform.properties</include>
+              </includes>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>io.rchemist</groupId>
+        <artifactId>common-class-transformer-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>enhance-test-classes</id>
+            <phase>process-test-classes</phase>
+            <goals>
+              <goal>enhance</goal>
+            </goals>
+            <configuration>
+              <classesDirectory>${project.build.testOutputDirectory}</classesDirectory>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+    </plugins>
+  </build>
+
+  <distributionManagement>
+    <repository>
+      <id>release</id>
+      <url>file:../../release/releases</url>
+      <!--<url>https://github.com/rchemist/release-micro/raw/main/releases</url>-->
+    </repository>
+
+    <snapshotRepository>
+      <id>snapshot</id>
+      <url>file:../../release/snapshots</url>
+      <!--<url>https://github.com/rchemist/release-micro/raw/main/snapshots</url>-->
+    </snapshotRepository>
+  </distributionManagement>
+
+  <profiles>
+    <!--
+      0.0.10.J: -Pit 활성화 시 BaseIntegrationTest 22 케이스를 PG 에서도 재실행.
+
+      - Parent -Pit 프로파일이 Failsafe 의 default execution (H2) 을 바인딩.
+      - 본 프로파일은 같은 조건에서 2 차 execution (PG) 을 추가 바인딩.
+      - test.dialect=postgres 주입으로 BaseIntegrationTest 의 @DynamicPropertySource
+        dialect-switch 가 PG 경로로 전환.
+      - reportsDirectory 를 failsafe-reports-pg 로 분리해 H2 execution 의 보고서와 충돌 방지.
+      - PostgresContainerHolder.withReuse(true) 가 가능한 환경에서는 컨테이너 재사용으로
+        cold-start 1 회로 끝난다. 재사용 불가면 fork 분리 시 ~20s 페널티.
+      - JaCoCo 의 prepare-agent-integration (parent) 은 execution-level 바인딩이 아니라
+        phase-level (initialize 쪽) 로 1 회만 뜨고 argLine 을 주입하므로 두 execution 모두
+        커버된다.
+    -->
+    <profile>
+      <id>it</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-failsafe-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>postgres-integration</id>
+                <goals>
+                  <goal>integration-test</goal>
+                  <goal>verify</goal>
+                </goals>
+                <configuration>
+                  <reportsDirectory>${project.build.directory}/failsafe-reports-pg</reportsDirectory>
+                  <summaryFile>${project.build.directory}/failsafe-reports-pg/failsafe-summary.xml</summaryFile>
+                  <systemPropertyVariables>
+                    <spring.main.lazy-initialization>true</spring.main.lazy-initialization>
+                    <spring.jpa.defer-datasource-initialization>true</spring.jpa.defer-datasource-initialization>
+                    <test.dialect>postgres</test.dialect>
+                  </systemPropertyVariables>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+</project>
