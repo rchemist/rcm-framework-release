@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~  Copyright (c) "2025". rchemist.io by Rchemist
+  ~  Licensed under the Rchemist Common License, Version 1.0 (the "License");
+  ~  you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License under controlled by Rchemist
+  -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>rcm-framework</artifactId>
+    <groupId>io.rchemist</groupId>
+    <version>0.0.5-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+
+  <artifactId>coverage-report</artifactId>
+  <packaging>pom</packaging>
+  <name>RCM-Framework :: JaCoCo Coverage Aggregate Report</name>
+  <description>
+    Aggregates per-module JaCoCo exec data into a unified HTML/XML report.
+    This module MUST be the last entry in the reactor (modules declared last
+    in the parent pom) so that all other modules' test data has been written.
+    Trend-tracking only — no coverage threshold gate (DEC-016).
+  </description>
+
+  <!--
+    Every module whose coverage should appear in the aggregate report must be
+    listed here. New test-carrying modules: add a <dependency> entry.
+  -->
+  <dependencies>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>common-utils</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>common-class-transformer</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>common-extension-manager</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>common-documentation</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>common-data</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>common-data-jpa</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>common-data-mongo</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>common-framework</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>common-security</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>common-webflux</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-activemq</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-article</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-article-shared</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-asset</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-asset-shared</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-custom-field</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-custom-field-shared</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-jwt</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-notification</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-notification-shared</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-otp</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-otp-shared</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-todolist</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-todolist-shared</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>module-workflow</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <executions>
+          <!-- Disable the inherited per-module executions that this aggregate
+               pom does not need (it has no sources / no tests of its own). -->
+          <execution>
+            <id>jacoco-prepare-agent</id>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>jacoco-prepare-agent-integration</id>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>jacoco-report</id>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>jacoco-report-integration</id>
+            <phase>none</phase>
+          </execution>
+          <!-- Aggregate all dependency modules' exec data. -->
+          <execution>
+            <id>aggregate-report</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>report-aggregate</goal>
+            </goals>
+            <configuration>
+              <title>RCM-Framework Coverage (Aggregate)</title>
+              <outputDirectory>${project.reporting.outputDirectory}/jacoco-aggregate</outputDirectory>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>
