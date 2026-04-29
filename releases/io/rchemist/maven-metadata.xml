@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>RCM-Framework :: Common :: Class Transformer Maven Plugin</name>
+      <prefix>rcm-enhance</prefix>
+      <artifactId>common-class-transformer-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
