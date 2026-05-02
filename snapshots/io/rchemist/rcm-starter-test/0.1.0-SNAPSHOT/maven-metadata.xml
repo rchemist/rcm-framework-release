@@ -3,21 +3,32 @@
   <groupId>io.rchemist</groupId>
   <artifactId>rcm-starter-test</artifactId>
   <versioning>
-    <lastUpdated>20260502144724</lastUpdated>
+    <lastUpdated>20260502194625</lastUpdated>
     <snapshot>
-      <timestamp>20260502.144724</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20260502.194625</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.0-20260502.194625-2</value>
+        <updated>20260502194625</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.0-20260502.194625-2</value>
+        <updated>20260502194625</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.0-20260502.144724-1</value>
-        <updated>20260502144724</updated>
+        <value>0.1.0-20260502.194625-2</value>
+        <updated>20260502194625</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.1.0-20260502.144724-1</value>
-        <updated>20260502144724</updated>
+        <value>0.1.0-20260502.194625-2</value>
+        <updated>20260502194625</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
