@@ -3,32 +3,32 @@
   <groupId>io.rchemist</groupId>
   <artifactId>rcm-starter-external</artifactId>
   <versioning>
-    <lastUpdated>20260502194620</lastUpdated>
+    <lastUpdated>20260509200928</lastUpdated>
     <snapshot>
-      <timestamp>20260502.194620</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20260509.200928</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.1.0-20260502.194620-2</value>
-        <updated>20260502194620</updated>
+        <extension>module</extension>
+        <value>0.1.0-20260509.200928-3</value>
+        <updated>20260509200928</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.0-20260502.194620-2</value>
-        <updated>20260502194620</updated>
+        <value>0.1.0-20260509.200928-3</value>
+        <updated>20260509200928</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.1.0-20260502.194620-2</value>
-        <updated>20260502194620</updated>
+        <extension>jar</extension>
+        <value>0.1.0-20260509.200928-3</value>
+        <updated>20260509200928</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.0-20260502.194620-2</value>
-        <updated>20260502194620</updated>
+        <value>0.1.0-20260509.200928-3</value>
+        <updated>20260509200928</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

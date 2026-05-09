@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-extension",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework",
+          "module": "spring-context"
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-extension-0.1.0-SNAPSHOT.jar",
+          "url": "rcm-extension-0.1.0-SNAPSHOT.jar",
+          "size": 14778,
+          "sha512": "4ba63dc62f7193db5e3890ad15beeb7200a99c416d84b8eb9fc0cdf0cfd404b608c0550d603fe9c818fa406fb5f096edb0584208cc2c0202ecf77b5cc9af8e11",
+          "sha256": "6af53dc80c08cec55aa92679181d05226029956acb57bc4376758c0b83ae7262",
+          "sha1": "8149ef0ff8a31f2995beeac3644424bd9b4723d8",
+          "md5": "05196aff91b37200ae6353f48f6c174b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context"
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-extension-0.1.0-SNAPSHOT.jar",
+          "url": "rcm-extension-0.1.0-SNAPSHOT.jar",
+          "size": 14778,
+          "sha512": "4ba63dc62f7193db5e3890ad15beeb7200a99c416d84b8eb9fc0cdf0cfd404b608c0550d603fe9c818fa406fb5f096edb0584208cc2c0202ecf77b5cc9af8e11",
+          "sha256": "6af53dc80c08cec55aa92679181d05226029956acb57bc4376758c0b83ae7262",
+          "sha1": "8149ef0ff8a31f2995beeac3644424bd9b4723d8",
+          "md5": "05196aff91b37200ae6353f48f6c174b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-extension-0.1.0-SNAPSHOT-sources.jar",
+          "url": "rcm-extension-0.1.0-SNAPSHOT-sources.jar",
+          "size": 13553,
+          "sha512": "3a9308757ac909f268b28bcbb136c71a82f47eb3def3c97df098f74ad4ddeb5c3e6c21e3bd7d451228d97efd92af532d954b5c67d4af287117403680172c2683",
+          "sha256": "de25c259bd245ed4e266a6883f410d15ef95dc9ade6cd34053e38b8cd4432cdb",
+          "sha1": "c2b7d10a2bedea71df2233faeac944e62ae96974",
+          "md5": "b5abfd4da574ba3efb076e7676e3073a"
+        }
+      ]
+    }
+  ]
+}

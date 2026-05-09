@@ -1,0 +1,237 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-starter-external",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-extension",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web"
+        },
+        {
+          "group": "org.apache.httpcomponents.client5",
+          "module": "httpclient5"
+        },
+        {
+          "group": "io.github.resilience4j",
+          "module": "resilience4j-retry",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.github.resilience4j",
+          "module": "resilience4j-circuitbreaker",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.github.resilience4j",
+          "module": "resilience4j-bulkhead",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aop"
+        },
+        {
+          "group": "org.aspectj",
+          "module": "aspectjweaver"
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-external-0.1.0.jar",
+          "url": "rcm-starter-external-0.1.0.jar",
+          "size": 37958,
+          "sha512": "b2dc2ac6cfde6d68255c1b00d5dc528dac4c71cdad13579c99e5e72d641fd23b993f48c27e18f7061d30137cd3d1b8c87efafb0cd891518343a39c6c101bd351",
+          "sha256": "f7d5bebfb621836c463b2e836842465c69096feb7949cebf9e978921048ff311",
+          "sha1": "399981dfdf9a97061f522c458f2eafce28525549",
+          "md5": "5f50d75a4edcd476a7af2fb4b07e772e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-extension",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web"
+        },
+        {
+          "group": "org.apache.httpcomponents.client5",
+          "module": "httpclient5"
+        },
+        {
+          "group": "io.github.resilience4j",
+          "module": "resilience4j-retry",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.github.resilience4j",
+          "module": "resilience4j-circuitbreaker",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "io.github.resilience4j",
+          "module": "resilience4j-bulkhead",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-aop"
+        },
+        {
+          "group": "org.aspectj",
+          "module": "aspectjweaver"
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-external-0.1.0.jar",
+          "url": "rcm-starter-external-0.1.0.jar",
+          "size": 37958,
+          "sha512": "b2dc2ac6cfde6d68255c1b00d5dc528dac4c71cdad13579c99e5e72d641fd23b993f48c27e18f7061d30137cd3d1b8c87efafb0cd891518343a39c6c101bd351",
+          "sha256": "f7d5bebfb621836c463b2e836842465c69096feb7949cebf9e978921048ff311",
+          "sha1": "399981dfdf9a97061f522c458f2eafce28525549",
+          "md5": "5f50d75a4edcd476a7af2fb4b07e772e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-starter-external-0.1.0-sources.jar",
+          "url": "rcm-starter-external-0.1.0-sources.jar",
+          "size": 26348,
+          "sha512": "44eda5981add365fa12ea69a26290af75210f2d4cf14d4e63e754e9b11b52e09e1d43d977114be8d82c09136bd79e1746424949a314f6279023bf87b0449280a",
+          "sha256": "c036c377adcc3bdddd56248919ab9bbe5ab024e20fb7a0ed33a8cfe6cb27f714",
+          "sha1": "2920c73d5ed36d05b91de4b921d2c929050cf577",
+          "md5": "416c1479fbf423e6a4541dcddaf58b20"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>io.rchemist</groupId>
+  <artifactId>rcm-core-context</artifactId>
+  <versioning>
+    <lastUpdated>20260509200835</lastUpdated>
+    <snapshot>
+      <timestamp>20260509.200835</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.0-20260509.200835-1</value>
+        <updated>20260509200835</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.0-20260509.200835-1</value>
+        <updated>20260509200835</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.0-20260509.200835-1</value>
+        <updated>20260509200835</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1.0-20260509.200835-1</value>
+        <updated>20260509200835</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.1.0-SNAPSHOT</version>
+</metadata>

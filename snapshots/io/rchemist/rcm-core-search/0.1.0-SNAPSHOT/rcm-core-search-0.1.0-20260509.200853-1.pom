@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.rchemist</groupId>
+  <artifactId>rcm-core-search</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <name>rcm-core-search</name>
+  <url>https://github.com/rchemist/rcm-backend-framework</url>
+  <licenses>
+    <license>
+      <name>Rchemist Common License, Version 1.0</name>
+      <url>https://rchemist.io/licenses/LICENSE-1.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>rchemist</id>
+      <name>Rchemist Team</name>
+      <email>dev@rchemist.io</email>
+    </developer>
+  </developers>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>io.rchemist</groupId>
+        <artifactId>rcm-framework-bom</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <dependencies>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>rcm-core-marker</artifactId>
+      <version>0.1.0-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>rcm-extension</artifactId>
+      <version>0.1.0-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.rchemist</groupId>
+      <artifactId>rcm-core-error</artifactId>
+      <version>0.1.0-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

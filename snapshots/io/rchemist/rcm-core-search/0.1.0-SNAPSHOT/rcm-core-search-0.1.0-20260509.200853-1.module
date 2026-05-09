@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-core-search",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-extension",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-error",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-core-search-0.1.0-SNAPSHOT.jar",
+          "url": "rcm-core-search-0.1.0-SNAPSHOT.jar",
+          "size": 57908,
+          "sha512": "73385ee300287689e1d5849a5f0c2af1a1eb7a3bc310c6fe177276223e9d1b8df3bd2ed8fd1433a6937c53aaa1083ca43bd0449eb2372a0f0f203b5951fabe92",
+          "sha256": "42f648e2be2b2bf28ad558f0593aed6707be68c0519c18ffbe26e2f6f1abecad",
+          "sha1": "15295db9c930c7122833628a6a80ba8807d14d38",
+          "md5": "4cfe5ed2dc8ff06fa1dc18613642d869"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations"
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-extension",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-error",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-core-search-0.1.0-SNAPSHOT.jar",
+          "url": "rcm-core-search-0.1.0-SNAPSHOT.jar",
+          "size": 57908,
+          "sha512": "73385ee300287689e1d5849a5f0c2af1a1eb7a3bc310c6fe177276223e9d1b8df3bd2ed8fd1433a6937c53aaa1083ca43bd0449eb2372a0f0f203b5951fabe92",
+          "sha256": "42f648e2be2b2bf28ad558f0593aed6707be68c0519c18ffbe26e2f6f1abecad",
+          "sha1": "15295db9c930c7122833628a6a80ba8807d14d38",
+          "md5": "4cfe5ed2dc8ff06fa1dc18613642d869"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-core-search-0.1.0-SNAPSHOT-sources.jar",
+          "url": "rcm-core-search-0.1.0-SNAPSHOT-sources.jar",
+          "size": 51800,
+          "sha512": "9aef300a1c1eab499d7dc25bf22f18eb1cd806c8d801ae71b1010ebbbeb827cf3d93c9accc9d7be6eccb8378296dfc5569eace0c7ff9e6bce58db1b1630797f8",
+          "sha256": "7b39915f299354bb633a173088979da019366cf27d0229328d99e6023849b8cc",
+          "sha1": "4a732417b2bcd1a511c59c17586d0c2131b88179",
+          "md5": "e57a6ac248fb4fa116f32f9c3af103b8"
+        }
+      ]
+    }
+  ]
+}

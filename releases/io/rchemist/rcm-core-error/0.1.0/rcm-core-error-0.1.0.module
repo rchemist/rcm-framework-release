@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-core-error",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-core-error-0.1.0.jar",
+          "url": "rcm-core-error-0.1.0.jar",
+          "size": 5307,
+          "sha512": "ab57e2b271b5e2cb05d71ba796c165183936ae83f21fc639ddaa768111f094906daf2298afb818ff7f54765b80b0c4c0ab41198f0f5bbb48bb5af123297df77f",
+          "sha256": "2841f269de3ec6bc0bb1e170f451f5a5f55c8736e1041ee80c4158f43a2ad166",
+          "sha1": "6c4c366837df96b76c0c47fb368279a757956f67",
+          "md5": "985203d08c37e5e0c3a5a7a4c1b9af6a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-core-error-0.1.0.jar",
+          "url": "rcm-core-error-0.1.0.jar",
+          "size": 5307,
+          "sha512": "ab57e2b271b5e2cb05d71ba796c165183936ae83f21fc639ddaa768111f094906daf2298afb818ff7f54765b80b0c4c0ab41198f0f5bbb48bb5af123297df77f",
+          "sha256": "2841f269de3ec6bc0bb1e170f451f5a5f55c8736e1041ee80c4158f43a2ad166",
+          "sha1": "6c4c366837df96b76c0c47fb368279a757956f67",
+          "md5": "985203d08c37e5e0c3a5a7a4c1b9af6a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-core-error-0.1.0-sources.jar",
+          "url": "rcm-core-error-0.1.0-sources.jar",
+          "size": 6246,
+          "sha512": "69b8464b8cc6a79db3d71555e23d0673399b819c1caccef86228a7abc216dabd46f678de1e3ac2542106dde0b1b7e970761cbe882748b3ffb44a46ff49f20b9e",
+          "sha256": "296cad7a8eb4409fb382c1a7ec3ba761d0d08668b340aeb37521b4c89d5da0d2",
+          "sha1": "0df21fb25597d7d556475b195d74379dc166ef03",
+          "md5": "126dc642ee9021d11606ca30dbf89e47"
+        }
+      ]
+    }
+  ]
+}
