@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-core-numeric",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-core-numeric-0.1.0.jar",
+          "url": "rcm-core-numeric-0.1.0.jar",
+          "size": 14532,
+          "sha512": "7ce3164d98a07fa280e244be73498bcb9c44c5d057339884947aa9aa10c5b802b6e218d1db0e4e339394b7dedf5ea84d6a8609d1ed6edc373da64f5fdfcc5804",
+          "sha256": "9135d8daaf6dda39b67b0043238f1d43842834652191dd6830f1e22c09c72c2c",
+          "sha1": "014c98948f83bec32539827feb6c6764f4da129e",
+          "md5": "30bcf43a838d183ee5b4a773d28a9513"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-core-numeric-0.1.0.jar",
+          "url": "rcm-core-numeric-0.1.0.jar",
+          "size": 14532,
+          "sha512": "7ce3164d98a07fa280e244be73498bcb9c44c5d057339884947aa9aa10c5b802b6e218d1db0e4e339394b7dedf5ea84d6a8609d1ed6edc373da64f5fdfcc5804",
+          "sha256": "9135d8daaf6dda39b67b0043238f1d43842834652191dd6830f1e22c09c72c2c",
+          "sha1": "014c98948f83bec32539827feb6c6764f4da129e",
+          "md5": "30bcf43a838d183ee5b4a773d28a9513"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-core-numeric-0.1.0-sources.jar",
+          "url": "rcm-core-numeric-0.1.0-sources.jar",
+          "size": 13769,
+          "sha512": "a7a241c5e56a34220de6fb7ad710cd1a8c1d88c9f89c0a402c58eee064ba4bf22f6254fcf7c74ba05a25cb19c9756e0f20001c0b894f86cc4df518877a0b66f8",
+          "sha256": "1ea123f9c0a0be18497a60446212028f7d49c53992b441430ead8d188c2648a1",
+          "sha1": "26d4585d4fee5a3c6aa29234872f656c28276beb",
+          "md5": "047de7a846b7b266098c2c34f19678d9"
+        }
+      ]
+    }
+  ]
+}

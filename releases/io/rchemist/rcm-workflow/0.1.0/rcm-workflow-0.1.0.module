@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-workflow",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-extension",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-workflow-0.1.0.jar",
+          "url": "rcm-workflow-0.1.0.jar",
+          "size": 29676,
+          "sha512": "daf27169e0d874d030b65786395ad22522c77c91ea04afe07f4ea1ccfd6173f9fd3447c500aa841ec50ae9177f96c859b393de071a4ea5a5d3659a8b11408f20",
+          "sha256": "d04281d1d4ed90493f85230245f06b48d268ddd26293acbce5d2e77c84ab70db",
+          "sha1": "3a79b9bd93588a520bd239404e9ab17911ae7986",
+          "md5": "cb5e75575d010f9700689247e9fae251"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-extension",
+          "version": {
+            "requires": "0.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-workflow-0.1.0.jar",
+          "url": "rcm-workflow-0.1.0.jar",
+          "size": 29676,
+          "sha512": "daf27169e0d874d030b65786395ad22522c77c91ea04afe07f4ea1ccfd6173f9fd3447c500aa841ec50ae9177f96c859b393de071a4ea5a5d3659a8b11408f20",
+          "sha256": "d04281d1d4ed90493f85230245f06b48d268ddd26293acbce5d2e77c84ab70db",
+          "sha1": "3a79b9bd93588a520bd239404e9ab17911ae7986",
+          "md5": "cb5e75575d010f9700689247e9fae251"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-workflow-0.1.0-sources.jar",
+          "url": "rcm-workflow-0.1.0-sources.jar",
+          "size": 21247,
+          "sha512": "0262dd2eee7560c00d4c1c181ba7627a2d6aa5c4aa5f44b2fa1d0bb617b5822718659e0267706a843ce0ee730f71f2ac91f256e27551cbad5564819077c07867",
+          "sha256": "f70c5e0502a677dfab0c78bdaf9b809f7389e9ca84aeb912a7298c5cc99dd4ca",
+          "sha1": "600cc2b53f4b95f4203d818ae94d0e800427a5b4",
+          "md5": "d1a0b79500016f4c9a22cc8fe648b279"
+        }
+      ]
+    }
+  ]
+}

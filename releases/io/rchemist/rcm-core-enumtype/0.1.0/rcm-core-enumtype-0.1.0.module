@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-core-enumtype",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rcm-core-enumtype-0.1.0.jar",
+          "url": "rcm-core-enumtype-0.1.0.jar",
+          "size": 13188,
+          "sha512": "21e951e7785e30bacae9db72d3b97bef201e9f00374e58a8fd0ed71e90a55e8c9241c4a2b9a19f79cd8e9e60d35f49ada02e43f3a66b0bee2fb39417957279ea",
+          "sha256": "6ac90b24c1c38cfb5ba52d22dbafcc4e1e4365416dd16aec86179225bf093b8a",
+          "sha1": "2496c2b3c0c7ab1a29f8c37c275c78e13c4ef6cb",
+          "md5": "dc3505770ea309ee9b911bea9218998c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-core-enumtype-0.1.0.jar",
+          "url": "rcm-core-enumtype-0.1.0.jar",
+          "size": 13188,
+          "sha512": "21e951e7785e30bacae9db72d3b97bef201e9f00374e58a8fd0ed71e90a55e8c9241c4a2b9a19f79cd8e9e60d35f49ada02e43f3a66b0bee2fb39417957279ea",
+          "sha256": "6ac90b24c1c38cfb5ba52d22dbafcc4e1e4365416dd16aec86179225bf093b8a",
+          "sha1": "2496c2b3c0c7ab1a29f8c37c275c78e13c4ef6cb",
+          "md5": "dc3505770ea309ee9b911bea9218998c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-core-enumtype-0.1.0-sources.jar",
+          "url": "rcm-core-enumtype-0.1.0-sources.jar",
+          "size": 11201,
+          "sha512": "b512035d10264769af92bc0335caf5b17d4341ed65e6bddf312135300726d9106f4fa985f8d36939860544b636121772700b5103059f6fb070126cadffe7b667",
+          "sha256": "af46a4cf5b6a83688013a80ecc117e48f78e773723b68b400b151808b73e4ec1",
+          "sha1": "56d75fd4b17177720d00550bbe3710b5b68b595c",
+          "md5": "a39ed19d43ebf988111b56402d84b937"
+        }
+      ]
+    }
+  ]
+}

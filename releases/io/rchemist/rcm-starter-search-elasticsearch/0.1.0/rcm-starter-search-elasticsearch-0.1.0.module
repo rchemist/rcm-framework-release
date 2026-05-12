@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-starter-search-elasticsearch",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-search",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-elasticsearch"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-search-elasticsearch-0.1.0.jar",
+          "url": "rcm-starter-search-elasticsearch-0.1.0.jar",
+          "size": 28407,
+          "sha512": "989fdf4ae9ed9ac97b4ccf8303e51d4f0ffa9838b8c7dd8c3f7f9257ab6df85b26a0e9b7805df66cfac8d54f1252375e5b359e703099a0bb22513eed2093b2ec",
+          "sha256": "f67a59e53b2da129d987eb872af1820e22e218b08c5d2f9347720e31b0fc490a",
+          "sha1": "271b73b218a06c70558b43b73c0f9b4e1f808c6d",
+          "md5": "097571263580004849212dcee385c584"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-search",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-elasticsearch"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-search-elasticsearch-0.1.0.jar",
+          "url": "rcm-starter-search-elasticsearch-0.1.0.jar",
+          "size": 28407,
+          "sha512": "989fdf4ae9ed9ac97b4ccf8303e51d4f0ffa9838b8c7dd8c3f7f9257ab6df85b26a0e9b7805df66cfac8d54f1252375e5b359e703099a0bb22513eed2093b2ec",
+          "sha256": "f67a59e53b2da129d987eb872af1820e22e218b08c5d2f9347720e31b0fc490a",
+          "sha1": "271b73b218a06c70558b43b73c0f9b4e1f808c6d",
+          "md5": "097571263580004849212dcee385c584"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-starter-search-elasticsearch-0.1.0-sources.jar",
+          "url": "rcm-starter-search-elasticsearch-0.1.0-sources.jar",
+          "size": 16934,
+          "sha512": "ff423f68c95e0df0d9738c71e8dd9045bd6cbac804cf78d62c312fe5477dd8cd4d0012f7246a02e6d2e63c41d73f90bbd6807c5cf98c2fe20feff70ee8dbee3f",
+          "sha256": "a1d9943a0226b7a13af1623ef74f910635047373416f834965910b551b15ec26",
+          "sha1": "b65fc1731729ace208352e99ba92af1d90aabe34",
+          "md5": "7421b58c6f88556cc69bf0e4268327dc"
+        }
+      ]
+    }
+  ]
+}

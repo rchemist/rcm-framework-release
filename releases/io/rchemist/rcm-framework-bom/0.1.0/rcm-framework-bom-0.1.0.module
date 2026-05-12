@@ -85,6 +85,13 @@
         },
         {
           "group": "io.rchemist",
+          "module": "rcm-core-numeric",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
           "module": "rcm-core-featureflag",
           "version": {
             "requires": "0.1.0"
@@ -163,6 +170,34 @@
         {
           "group": "io.rchemist",
           "module": "rcm-starter-search-elasticsearch",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-kr",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-notification",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-storage",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-document",
           "version": {
             "requires": "0.1.0"
           }
@@ -240,6 +275,13 @@
         },
         {
           "group": "io.rchemist",
+          "module": "rcm-core-numeric",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
           "module": "rcm-core-featureflag",
           "version": {
             "requires": "0.1.0"
@@ -318,6 +360,34 @@
         {
           "group": "io.rchemist",
           "module": "rcm-starter-search-elasticsearch",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-kr",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-notification",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-storage",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-document",
           "version": {
             "requires": "0.1.0"
           }

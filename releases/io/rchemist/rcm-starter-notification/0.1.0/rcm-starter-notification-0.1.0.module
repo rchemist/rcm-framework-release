@@ -1,0 +1,149 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-starter-notification",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-notification-0.1.0.jar",
+          "url": "rcm-starter-notification-0.1.0.jar",
+          "size": 65481,
+          "sha512": "710413c97b4c06e15fc3f58daa55713a95ffd302d80b8b0e4d73a06a597df0348930c9edda3eb4ff5e57acb96b7b688ffb5e13e039c65f6e5c75d9610403b42c",
+          "sha256": "b17e1ce018a98e077c0bf3088ef0438a7980db85a9518a25d20f64b4e9145c71",
+          "sha1": "02f3ed4042f9a393afc3717381e72548e09b8136",
+          "md5": "97bf84be0d4e7c54dd4a9f8201027add"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-notification-0.1.0.jar",
+          "url": "rcm-starter-notification-0.1.0.jar",
+          "size": 65481,
+          "sha512": "710413c97b4c06e15fc3f58daa55713a95ffd302d80b8b0e4d73a06a597df0348930c9edda3eb4ff5e57acb96b7b688ffb5e13e039c65f6e5c75d9610403b42c",
+          "sha256": "b17e1ce018a98e077c0bf3088ef0438a7980db85a9518a25d20f64b4e9145c71",
+          "sha1": "02f3ed4042f9a393afc3717381e72548e09b8136",
+          "md5": "97bf84be0d4e7c54dd4a9f8201027add"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-starter-notification-0.1.0-sources.jar",
+          "url": "rcm-starter-notification-0.1.0-sources.jar",
+          "size": 65994,
+          "sha512": "f72032327a7e5ae6ebb4576123fd4676151f320881dbf848e3417f08378ddd4d67f789148dcce3753c442046c9229dd18c4f97267f9ae0b0736c4bf47d2ed163",
+          "sha256": "bdb875059af831a5fc4cae20cf7fb8229c6dcd28638fac0e27614040a32fe20d",
+          "sha1": "f691d50972d0bae7c669f469fb1eb2df05c07a11",
+          "md5": "6145198c7b663fb3e336fc5309a5d646"
+        }
+      ]
+    }
+  ]
+}

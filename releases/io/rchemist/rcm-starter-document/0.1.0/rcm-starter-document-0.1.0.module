@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-starter-document",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api"
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-document-0.1.0.jar",
+          "url": "rcm-starter-document-0.1.0.jar",
+          "size": 52361,
+          "sha512": "050bdb54810493a77d357af54d68fe171db07ae0ffd6ad5705caba477f919fa7baf423d876a8e647811dd2cb3ef5f428b12b39eb696785743b50ec2512ef9b7f",
+          "sha256": "67eae9f87680a4782f42d32df203a19ac3b0a4ffaa453d3aec69ce391bee35a6",
+          "sha1": "33214c8c861ea971f6a6ff89f955512837aad939",
+          "md5": "8661b6ebdc99594f1ffba4404439cb15"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api"
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-document-0.1.0.jar",
+          "url": "rcm-starter-document-0.1.0.jar",
+          "size": 52361,
+          "sha512": "050bdb54810493a77d357af54d68fe171db07ae0ffd6ad5705caba477f919fa7baf423d876a8e647811dd2cb3ef5f428b12b39eb696785743b50ec2512ef9b7f",
+          "sha256": "67eae9f87680a4782f42d32df203a19ac3b0a4ffaa453d3aec69ce391bee35a6",
+          "sha1": "33214c8c861ea971f6a6ff89f955512837aad939",
+          "md5": "8661b6ebdc99594f1ffba4404439cb15"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-starter-document-0.1.0-sources.jar",
+          "url": "rcm-starter-document-0.1.0-sources.jar",
+          "size": 40121,
+          "sha512": "14968fb5de456ec0367c9ee794ddb188a54c4d908927fd8600b1e1d70994770534338bd31086c7a566398a48815ef91b8261a9c07e956ba8ad21e45e891072dd",
+          "sha256": "77988546e85902336fb0b1cc5e647c5afc402d9887b1f57ac16c833b2c7d5f99",
+          "sha1": "cd347630eaf0be1b06ef504e24a52415e094ae1b",
+          "md5": "d784d30f438b583e339cc53a0397b071"
+        }
+      ]
+    }
+  ]
+}

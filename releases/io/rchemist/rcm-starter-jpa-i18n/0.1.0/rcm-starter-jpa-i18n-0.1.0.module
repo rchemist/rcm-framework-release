@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-starter-jpa-i18n",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-web",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-jpa",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-jpa-i18n-0.1.0.jar",
+          "url": "rcm-starter-jpa-i18n-0.1.0.jar",
+          "size": 16254,
+          "sha512": "ee774f0c27a5be485905c1af8a41e1370eea8389852b55fd8b47cba049810fd98c8d9dc89b47d1e00f3e0d0c09737824b539b3aebdaf598f99e5610b153b6e51",
+          "sha256": "182e128b7ac489b0346bf2f79e9f0f7132e723319561882eb1e64f36e829beb7",
+          "sha1": "d9acb3dcdb18fa5fb16b5e5c39ce11431ba264f9",
+          "md5": "bfd62f58770a86201e635fe80acc3f7c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-web",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-jpa",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-jpa-i18n-0.1.0.jar",
+          "url": "rcm-starter-jpa-i18n-0.1.0.jar",
+          "size": 16254,
+          "sha512": "ee774f0c27a5be485905c1af8a41e1370eea8389852b55fd8b47cba049810fd98c8d9dc89b47d1e00f3e0d0c09737824b539b3aebdaf598f99e5610b153b6e51",
+          "sha256": "182e128b7ac489b0346bf2f79e9f0f7132e723319561882eb1e64f36e829beb7",
+          "sha1": "d9acb3dcdb18fa5fb16b5e5c39ce11431ba264f9",
+          "md5": "bfd62f58770a86201e635fe80acc3f7c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-starter-jpa-i18n-0.1.0-sources.jar",
+          "url": "rcm-starter-jpa-i18n-0.1.0-sources.jar",
+          "size": 13436,
+          "sha512": "904560da688a8c8899b5e8823b75b1ff619bed2da6be633074d13f82b67400a5acb9239e68bcae6e74f49bd63303d3c7b090c799f9c0a63f262fe4ce1512cbea",
+          "sha256": "856e0ae14ccb0e17c2f742e9eb092ffdd457db637b98071646a8499b28beb1e7",
+          "sha1": "69a39b7f0c81b7f433626f914cadced29ca183ee",
+          "md5": "e5949b5a8df3e3ce7698c45c0607aa18"
+        }
+      ]
+    }
+  ]
+}

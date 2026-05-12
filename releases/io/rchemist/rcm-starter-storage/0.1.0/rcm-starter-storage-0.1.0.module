@@ -1,0 +1,149 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-starter-storage",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-storage-0.1.0.jar",
+          "url": "rcm-starter-storage-0.1.0.jar",
+          "size": 51853,
+          "sha512": "a8bb690e6cbe302cb3f7e6d12782e5b7b4b28a98bf5f45878cfa0c335df9d4a9191c827c76dea16675918ea18cf88e8ba1a8f7ba652702fedccea5ab8bac8475",
+          "sha256": "73205e1c072bf7e79e6e755a5c7965de8fd6f2694212f50a2065afd2b0fbec48",
+          "sha1": "f708020c7f0444a5bab55e8b9d9f5ed3dbd5f7f5",
+          "md5": "a44fa841bfea58ab037cdc3074b88c44"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api"
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-storage-0.1.0.jar",
+          "url": "rcm-starter-storage-0.1.0.jar",
+          "size": 51853,
+          "sha512": "a8bb690e6cbe302cb3f7e6d12782e5b7b4b28a98bf5f45878cfa0c335df9d4a9191c827c76dea16675918ea18cf88e8ba1a8f7ba652702fedccea5ab8bac8475",
+          "sha256": "73205e1c072bf7e79e6e755a5c7965de8fd6f2694212f50a2065afd2b0fbec48",
+          "sha1": "f708020c7f0444a5bab55e8b9d9f5ed3dbd5f7f5",
+          "md5": "a44fa841bfea58ab037cdc3074b88c44"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-starter-storage-0.1.0-sources.jar",
+          "url": "rcm-starter-storage-0.1.0-sources.jar",
+          "size": 46141,
+          "sha512": "9eddc4cbe0dfe8c292f012ab94c19ea0a774c489f553a544c8d9a4fcc1f077769946783ed8362179dbcf42abc0bb7d1d0904a5c6ffba2a0181ab7928d89c67b3",
+          "sha256": "b1a1740fba5fd2df2fc49f12d5d2f2762de39662f3d2816a50ec356abdfab0fe",
+          "sha1": "cdfa0c7d461c48511aae35512ba4d86a1290de4e",
+          "md5": "3d708b25fca373fa901b9fd1d7b8175e"
+        }
+      ]
+    }
+  ]
+}
