@@ -3,32 +3,32 @@
   <groupId>io.rchemist</groupId>
   <artifactId>rcm-starter-security</artifactId>
   <versioning>
-    <lastUpdated>20260509204554</lastUpdated>
+    <lastUpdated>20260528064908</lastUpdated>
     <snapshot>
-      <timestamp>20260509.204554</timestamp>
-      <buildNumber>4</buildNumber>
+      <timestamp>20260528.064908</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.0-20260528.064908-1</value>
+        <updated>20260528064908</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.0-20260509.204554-4</value>
-        <updated>20260509204554</updated>
+        <value>0.1.0-20260528.064908-1</value>
+        <updated>20260528064908</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1.0-20260528.064908-1</value>
+        <updated>20260528064908</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>0.1.0-20260509.204554-4</value>
-        <updated>20260509204554</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.1.0-20260509.204554-4</value>
-        <updated>20260509204554</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>0.1.0-20260509.204554-4</value>
-        <updated>20260509204554</updated>
+        <value>0.1.0-20260528.064908-1</value>
+        <updated>20260528064908</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
