@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-core-context",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-core-context-0.1.0-SNAPSHOT.jar",
+          "url": "rcm-core-context-0.1.0-SNAPSHOT.jar",
+          "size": 7411,
+          "sha512": "c397d7413f949403902c8de4ec44bf55ff2c54e94690e2cde28173fab20bf2de73f092da7c0802749cce9c16cf68cc0d605bd0348b0251dc97f0806f527b3e7f",
+          "sha256": "c480ee28574ea417b26195c185ffe17b9273a995fdb9df16b74704e44135ad5c",
+          "sha1": "505a5a3e0352b4123c2343ffff2ab64eb608a4f2",
+          "md5": "aaf35a3e9e7b9f21aaba3f5db630bd9e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-core-context-0.1.0-SNAPSHOT.jar",
+          "url": "rcm-core-context-0.1.0-SNAPSHOT.jar",
+          "size": 7411,
+          "sha512": "c397d7413f949403902c8de4ec44bf55ff2c54e94690e2cde28173fab20bf2de73f092da7c0802749cce9c16cf68cc0d605bd0348b0251dc97f0806f527b3e7f",
+          "sha256": "c480ee28574ea417b26195c185ffe17b9273a995fdb9df16b74704e44135ad5c",
+          "sha1": "505a5a3e0352b4123c2343ffff2ab64eb608a4f2",
+          "md5": "aaf35a3e9e7b9f21aaba3f5db630bd9e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-core-context-0.1.0-SNAPSHOT-sources.jar",
+          "url": "rcm-core-context-0.1.0-SNAPSHOT-sources.jar",
+          "size": 7228,
+          "sha512": "5290e9433933a4473a9866e2b019ee78680329286caed36d4179f229c870d3c9553c09b49975007b97e5306a94bd243c1338c1a03bb7f58ede7c3026158ba2e8",
+          "sha256": "dab4f5acdeba25e039325da2d6a3d100fd60827a8311df9c103afebeef3bf610",
+          "sha1": "5f91a739e4cf85162cb96533a5b5dc243e0589b9",
+          "md5": "047d97975ade26e9873f3f07f771e43b"
+        }
+      ]
+    }
+  ]
+}

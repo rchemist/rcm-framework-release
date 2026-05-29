@@ -1,0 +1,222 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "showcase",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "showcase-0.1.0-SNAPSHOT-plain.jar",
+          "url": "showcase-0.1.0-SNAPSHOT-plain.jar",
+          "size": 211366,
+          "sha512": "1a36c25dadb536ada09c183c30a551a78f9451b2c26dc1c6f36105c675701480bc0fabd62db51d6a78159c6e18f8b8a2285a8f89a798c9e6eb7773b4e7a2e37a",
+          "sha256": "0c8737d983107ec23dc8b93c83cdf7c74426c0138f0940f84cdce7fc82f986e2",
+          "sha1": "b55accdc0cb66fdb7b49d158bacb082242ba23b9",
+          "md5": "1d952ce0ddb07eee8057128f281309bd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-web",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-jpa",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-security",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-external",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-enumtype",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-featureflag",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-kr",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-notification",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-storage",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-document",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-jpa-i18n",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-asset",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-starter-search-elasticsearch",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-workflow",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-extension",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-redis"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-actuator"
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core"
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql"
+        },
+        {
+          "group": "com.h2database",
+          "module": "h2"
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-postgresql"
+        }
+      ],
+      "files": [
+        {
+          "name": "showcase-0.1.0-SNAPSHOT-plain.jar",
+          "url": "showcase-0.1.0-SNAPSHOT-plain.jar",
+          "size": 211366,
+          "sha512": "1a36c25dadb536ada09c183c30a551a78f9451b2c26dc1c6f36105c675701480bc0fabd62db51d6a78159c6e18f8b8a2285a8f89a798c9e6eb7773b4e7a2e37a",
+          "sha256": "0c8737d983107ec23dc8b93c83cdf7c74426c0138f0940f84cdce7fc82f986e2",
+          "sha1": "b55accdc0cb66fdb7b49d158bacb082242ba23b9",
+          "md5": "1d952ce0ddb07eee8057128f281309bd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "showcase-0.1.0-SNAPSHOT-sources.jar",
+          "url": "showcase-0.1.0-SNAPSHOT-sources.jar",
+          "size": 158565,
+          "sha512": "308b5700659030ec127d339d1b617b583f450b75eeab5ae4a7bc414893fe7df086ef27c830bf94016dbd9723eb52035c3da7924c7392b906a7e485a314d19c81",
+          "sha256": "851b03f36cdc54b97ce302704bb52089930790d7ce5846e576b82e929f831e40",
+          "sha1": "9d4c1b41c6bf1c2db65376b47c0d8cdb171ab72e",
+          "md5": "18544fe6e24ac63a3b7d268a7cbe4bac"
+        }
+      ]
+    }
+  ]
+}

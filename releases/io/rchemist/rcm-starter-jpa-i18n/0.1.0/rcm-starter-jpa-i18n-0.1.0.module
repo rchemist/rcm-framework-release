@@ -68,11 +68,11 @@
         {
           "name": "rcm-starter-jpa-i18n-0.1.0.jar",
           "url": "rcm-starter-jpa-i18n-0.1.0.jar",
-          "size": 16254,
-          "sha512": "ee774f0c27a5be485905c1af8a41e1370eea8389852b55fd8b47cba049810fd98c8d9dc89b47d1e00f3e0d0c09737824b539b3aebdaf598f99e5610b153b6e51",
-          "sha256": "182e128b7ac489b0346bf2f79e9f0f7132e723319561882eb1e64f36e829beb7",
-          "sha1": "d9acb3dcdb18fa5fb16b5e5c39ce11431ba264f9",
-          "md5": "bfd62f58770a86201e635fe80acc3f7c"
+          "size": 16330,
+          "sha512": "1273eac7b064f649c393a6783bb04e70d169369c3e40e5cd20681aca374f8c6e32311bec56c110db8a0725bd1bed5ab0195125faa14a44817d332047fa66e095",
+          "sha256": "5c24a0c75865c04e8953c49e45904a44f5a9dfb6bc210b42a5b924ee78e788a1",
+          "sha1": "b5d1d682e8925740f068a6d014e98d6f586d2942",
+          "md5": "62c4029c2f373f625d6b1b21f62af5ee"
         }
       ]
     },
@@ -145,11 +145,11 @@
         {
           "name": "rcm-starter-jpa-i18n-0.1.0.jar",
           "url": "rcm-starter-jpa-i18n-0.1.0.jar",
-          "size": 16254,
-          "sha512": "ee774f0c27a5be485905c1af8a41e1370eea8389852b55fd8b47cba049810fd98c8d9dc89b47d1e00f3e0d0c09737824b539b3aebdaf598f99e5610b153b6e51",
-          "sha256": "182e128b7ac489b0346bf2f79e9f0f7132e723319561882eb1e64f36e829beb7",
-          "sha1": "d9acb3dcdb18fa5fb16b5e5c39ce11431ba264f9",
-          "md5": "bfd62f58770a86201e635fe80acc3f7c"
+          "size": 16330,
+          "sha512": "1273eac7b064f649c393a6783bb04e70d169369c3e40e5cd20681aca374f8c6e32311bec56c110db8a0725bd1bed5ab0195125faa14a44817d332047fa66e095",
+          "sha256": "5c24a0c75865c04e8953c49e45904a44f5a9dfb6bc210b42a5b924ee78e788a1",
+          "sha1": "b5d1d682e8925740f068a6d014e98d6f586d2942",
+          "md5": "62c4029c2f373f625d6b1b21f62af5ee"
         }
       ]
     },

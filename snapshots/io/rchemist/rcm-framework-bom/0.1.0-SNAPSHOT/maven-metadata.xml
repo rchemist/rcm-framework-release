@@ -3,21 +3,21 @@
   <groupId>io.rchemist</groupId>
   <artifactId>rcm-framework-bom</artifactId>
   <versioning>
-    <lastUpdated>20260528064908</lastUpdated>
+    <lastUpdated>20260529020739</lastUpdated>
     <snapshot>
-      <timestamp>20260528.064908</timestamp>
+      <timestamp>20260529.020739</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.1.0-20260528.064908-1</value>
-        <updated>20260528064908</updated>
+        <extension>module</extension>
+        <value>0.1.0-20260529.020739-1</value>
+        <updated>20260529020739</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.1.0-20260528.064908-1</value>
-        <updated>20260528064908</updated>
+        <extension>pom</extension>
+        <value>0.1.0-20260529.020739-1</value>
+        <updated>20260529020739</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
