@@ -27,11 +27,11 @@
         {
           "name": "rcm-apt-0.1.0.jar",
           "url": "rcm-apt-0.1.0.jar",
-          "size": 39649,
-          "sha512": "dfa3d704d3da8a27093d3f90de0f75fd875a4e1f5828d494e5e8bbd99eb68fa5eeeb8baaf6606ec33c39a94a4647d2325f0b972413332b9bc6abddc5fcd814f1",
-          "sha256": "ae31646e39f9e27eb7bd23f22ffc6c07c36dbb2a70c54b923ed0dfbf4b78dd53",
-          "sha1": "a72ac67f1d66eb6788d2e7b0fc995b6835566620",
-          "md5": "9eceaef5800ffadd6ba493733b243f7d"
+          "size": 39791,
+          "sha512": "3730f5f95ea7d7c5cabdcf1577258a3cb763e9d2d871f1848f3ff08505715bc9e9db5cb8b06cf5c2de1026af2b7753cf668d4d15a3ea46291735024ce236d75a",
+          "sha256": "0df6cc22043cd6bb825761a6b304c38a6c9dd60159d228b29c59485a23414cf5",
+          "sha1": "85b30126c786ae200e8ff482e1eb00172b83dead",
+          "md5": "64372d8b6fb1a355de5a4d6258d81ae2"
         }
       ]
     },
@@ -75,11 +75,11 @@
         {
           "name": "rcm-apt-0.1.0.jar",
           "url": "rcm-apt-0.1.0.jar",
-          "size": 39649,
-          "sha512": "dfa3d704d3da8a27093d3f90de0f75fd875a4e1f5828d494e5e8bbd99eb68fa5eeeb8baaf6606ec33c39a94a4647d2325f0b972413332b9bc6abddc5fcd814f1",
-          "sha256": "ae31646e39f9e27eb7bd23f22ffc6c07c36dbb2a70c54b923ed0dfbf4b78dd53",
-          "sha1": "a72ac67f1d66eb6788d2e7b0fc995b6835566620",
-          "md5": "9eceaef5800ffadd6ba493733b243f7d"
+          "size": 39791,
+          "sha512": "3730f5f95ea7d7c5cabdcf1577258a3cb763e9d2d871f1848f3ff08505715bc9e9db5cb8b06cf5c2de1026af2b7753cf668d4d15a3ea46291735024ce236d75a",
+          "sha256": "0df6cc22043cd6bb825761a6b304c38a6c9dd60159d228b29c59485a23414cf5",
+          "sha1": "85b30126c786ae200e8ff482e1eb00172b83dead",
+          "md5": "64372d8b6fb1a355de5a4d6258d81ae2"
         }
       ]
     },
@@ -95,11 +95,11 @@
         {
           "name": "rcm-apt-0.1.0-sources.jar",
           "url": "rcm-apt-0.1.0-sources.jar",
-          "size": 18590,
-          "sha512": "3b054992ee168725da0b1b7a377c87b61ea3c5223d106d51cb6b1602308731d89bdcb66802f28e48a4f939d5f31a4ae4a1804e20c6a24c38952b2ce469e98ea9",
-          "sha256": "c9bd70d03c0ed967a061e944b14ec0aedbd9dfd37cb5dc8f97bd83f2de7ea022",
-          "sha1": "f8e6adc094882fe08bf1bfe992a403c4c2d374dc",
-          "md5": "922e3fbda0c6820e7aa3e11640a610f8"
+          "size": 19062,
+          "sha512": "7d540737fe6391f97005c522d97fdd8a472a9d35f7f4d53ebba95d67e82bb9705e6d9b0e614e6e24a419327a8181ee1ed429353b3f09076565a41b48803c4fda",
+          "sha256": "3377834a223ef123ea169582eaaba3e216a8430190776d4a2d3cd32f2a509318",
+          "sha1": "131aac3e0c105ad38fa30d248f4a55987dde5727",
+          "md5": "ca9c0b835bf61f29bb25d81c69ce1547"
         }
       ]
     }
