@@ -1,0 +1,235 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rchemist",
+    "module": "rcm-starter-web",
+    "version": "0.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-error",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-search",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-extension",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation"
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-commons"
+        },
+        {
+          "group": "org.springdoc",
+          "module": "springdoc-openapi-starter-webmvc-ui",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "com.googlecode.owasp-java-html-sanitizer",
+          "module": "owasp-java-html-sanitizer",
+          "version": {
+            "requires": "20260313.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-web-0.1.0-SNAPSHOT.jar",
+          "url": "rcm-starter-web-0.1.0-SNAPSHOT.jar",
+          "size": 86130,
+          "sha512": "0a7d7442a15666031799f863408e6293fd488cb365d1967f86dabc5753ed63e183fe20595c53be7b4525402220acd3badb315bb7100b7f4607f7117de25bfc78",
+          "sha256": "231e24d90e11f3ad16103ca0669d42ba49923bcb57952050785206491bc20973",
+          "sha1": "d25b0b1bbcbf7bd6afd640a617b960a2a21dafab",
+          "md5": "d1ff4babebaa6970f22039157431670a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.rchemist",
+          "module": "rcm-framework-bom",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-marker",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-context",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-logging",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-error",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-core-search",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rchemist",
+          "module": "rcm-extension",
+          "version": {
+            "requires": "0.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation"
+        },
+        {
+          "group": "org.springframework.data",
+          "module": "spring-data-commons"
+        },
+        {
+          "group": "org.springdoc",
+          "module": "springdoc-openapi-starter-webmvc-ui",
+          "version": {
+            "requires": "3.0.3"
+          }
+        },
+        {
+          "group": "com.googlecode.owasp-java-html-sanitizer",
+          "module": "owasp-java-html-sanitizer",
+          "version": {
+            "requires": "20260313.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rcm-starter-web-0.1.0-SNAPSHOT.jar",
+          "url": "rcm-starter-web-0.1.0-SNAPSHOT.jar",
+          "size": 86130,
+          "sha512": "0a7d7442a15666031799f863408e6293fd488cb365d1967f86dabc5753ed63e183fe20595c53be7b4525402220acd3badb315bb7100b7f4607f7117de25bfc78",
+          "sha256": "231e24d90e11f3ad16103ca0669d42ba49923bcb57952050785206491bc20973",
+          "sha1": "d25b0b1bbcbf7bd6afd640a617b960a2a21dafab",
+          "md5": "d1ff4babebaa6970f22039157431670a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rcm-starter-web-0.1.0-SNAPSHOT-sources.jar",
+          "url": "rcm-starter-web-0.1.0-SNAPSHOT-sources.jar",
+          "size": 85597,
+          "sha512": "57ecf926e66df2ac86466c7bc9aa33c41f0d64dda53be6bbb436e16af6a6a4f747ea4c1029941b640e4c6b5ad0c310bd81dbbfabaf2e53a97eec685035cc980f",
+          "sha256": "a94bab436348c9e7d8ce174390d4ef9bd794f20ec25c486c8b9980f759d402d3",
+          "sha1": "a28cd34645d6516b5bfead06eae40f3c624c7e0a",
+          "md5": "85c336e35663c05a1c83f668c6f7f7e5"
+        }
+      ]
+    }
+  ]
+}
